@@ -335,7 +335,7 @@
                                                 class="money">₹748.00</span></span>
                                     </div>
                                     <div class="buttonSet text-center">
-                                        <a href="cart.html" class="btn btn-secondary btn--small">View Cart</a>
+                                        <a href="{{url('/cart')}}" class="btn btn-secondary btn--small">View Cart</a>
                                         <a href="checkout.html" class="btn btn-secondary btn--small">Checkout</a>
                                     </div>
                                 </div>
@@ -370,8 +370,7 @@
             <li class="lvl1 parent megamenu"><a href="blog-left-sidebar.html">Contact Us </a>
 
             </li>
-            <li class="lvl1"><a href="#"><b>Explore More!</b></a>
-            </li>
+            
         </ul>
     </div>
     <!--End Mobile Menu-->
