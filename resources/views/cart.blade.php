@@ -350,7 +350,7 @@
     <div class="mobile-nav-wrapper" role="navigation">
         <div class="closemobileMenu"><i class="icon anm anm-times-l pull-right"></i> Close Menu</div>
         <ul id="MobileNav" class="mobile-nav">
-            <li class="lvl1 parent megamenu"><a href="index.html">Home </a>
+            <li class="lvl1 parent megamenu"><a href="{{url('/')}}">Home </a>
 
             </li>
             <li class="lvl1 parent megamenu"><a href="#">Gallery </a>
