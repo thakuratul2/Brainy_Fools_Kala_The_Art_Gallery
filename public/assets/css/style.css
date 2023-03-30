@@ -1556,7 +1556,9 @@ textarea:-ms-input-placeholder {
   color: #ffffff;
   font-weight: 700;
   font-size: 66px;
- margin-bottom: 90px;
+  position: relative;
+  top: -55px;
+  right: 128px;
   text-transform: uppercase;
   line-height: 1.1;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 0);
@@ -1669,7 +1671,6 @@ textarea:-ms-input-placeholder {
 .slideshow .btn {
   color: #fff;
   background-color: #000;
-  margin-top: -179px;
 }
 
 .slideshow .btn:hover,
@@ -4050,6 +4051,10 @@ table {
 .product-template__container .product-form__item--submit {
   width: auto;
   overflow: hidden;
+  display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-template__container .product-form__item--submit .btn {
