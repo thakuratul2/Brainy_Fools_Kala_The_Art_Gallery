@@ -1361,14 +1361,14 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="wrap-blog">
-                            <a href="blog-left-sidebar.html" class="article__grid-image">
-                                <img src="assets/images/blog/post-img1.jpg" alt="It's all about how you wear"
+                            <a href="#" class="article__grid-image">
+                                <img src="assets/images/collection/paint5.jpg" alt="about us"
                                     title="It's all about how you wear" class="blur-up lazyloaded" />
                             </a>
                             <div class="article__grid-meta article__grid-meta--has-image">
                                 <div class="wrap-blog-inner">
                                     <h2 class="h3 article__title">
-                                        <a href="blog-left-sidebar.html">It's all about how you wear</a>
+                                        <a href="#">It's all about how you wear</a>
                                     </h2>
                                     <span class="article__date">May 02, 2017</span>
                                     <div class="rte article__grid-excerpt">
@@ -1385,8 +1385,8 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="wrap-blog">
                             <a href="blog-left-sidebar.html" class="article__grid-image">
-                                <img src="assets/images/blog/post-img2.jpg" alt="27 Days of Spring Fashion Recap"
-                                    title="27 Days of Spring Fashion Recap" class="blur-up lazyloaded" />
+                                <img src="assets/images/collection/paint3.jpg" alt="painting4"
+                                    title="painting 4" class="blur-up lazyloaded" />
                             </a>
                             <div class="article__grid-meta article__grid-meta--has-image">
                                 <div class="wrap-blog-inner">
