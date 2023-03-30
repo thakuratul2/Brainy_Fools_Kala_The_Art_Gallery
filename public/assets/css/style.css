@@ -866,7 +866,7 @@ textarea:-ms-input-placeholder {
   z-index: 333;
   width: 100%;
   left: 0;
-  background-color: #000000;
+  background-color: #ffffff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }
@@ -1251,7 +1251,7 @@ textarea:-ms-input-placeholder {
   }
 
   #siteNav>li>a {
-    color: #f7f7f7;
+    color: #000000;
     padding: 0 20px;
     text-transform: uppercase;
     line-height: 40px;
@@ -1556,9 +1556,7 @@ textarea:-ms-input-placeholder {
   color: #ffffff;
   font-weight: 700;
   font-size: 66px;
-  position: relative;
-  top: -55px;
-  right: 128px;
+ margin-bottom: 90px;
   text-transform: uppercase;
   line-height: 1.1;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 0);
@@ -1671,6 +1669,7 @@ textarea:-ms-input-placeholder {
 .slideshow .btn {
   color: #fff;
   background-color: #000;
+  margin-top: -179px;
 }
 
 .slideshow .btn:hover,
