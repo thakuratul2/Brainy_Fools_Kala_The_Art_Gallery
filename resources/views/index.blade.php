@@ -101,7 +101,7 @@
                         <!--Desktop Menu-->
                         <nav class="grid__item" id="AccessibleNav"><!-- for mobile -->
                             <ul id="siteNav" class="site-nav medium center hidearrow">
-                                <li class="lvl1 parent megamenu"><a href="#">Home <i
+                                <li class="lvl1 parent megamenu"><a href="{{url('/')}}">Home <i
                                             class="anm anm-angle-down-l"></i></a>
 
                                 </li>
