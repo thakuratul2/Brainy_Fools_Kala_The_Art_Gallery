@@ -108,7 +108,7 @@
                                             class="anm anm-angle-down-l"></i></a>
                                     
                                 </li>
-                                <li class="lvl1 parent dropdown"><a href="#">Artist<i
+                                <li class="lvl1 parent dropdown"><a href="{{url('/artist')}}">Artist<i
                                             class="anm anm-angle-down-l"></i></a>
                                     
                                 </li>
@@ -142,7 +142,7 @@
                             <div id="header-cart" class="block block-cart">
                                 <ul class="mini-products-list">
                                     <li class="item">
-                                        <a class="product-image" href="#">
+                                        <a class="product-image" href="{{url('/product')}}">
                                             <img src="assets/images/collection/paint2.jpg"
                                                 alt="paint2" title="" />
                                         </a>
@@ -172,9 +172,9 @@
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <a class="product-image" href="#">
+                                        <a class="product-image" href="{{url('/product')}}">
                                             <img src="assets/images/collection/paint6.jpg"
-                                                alt="Elastic Waist Dress - Black / Small" title="" />
+                                                alt="painting 1" title="" />
                                         </a>
                                         <div class="product-details">
                                             <a href="#" class="remove"><i class="anm anm-times-l"
@@ -231,16 +231,16 @@
                 <li class="lvl1 parent megamenu"><a href="{{url('/')}}">Home </a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="#">Gallery </a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/gallery')}}">Gallery </a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="product-layout-1.html">Artist</a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/artist')}}">Artist</a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="about-us.html">About Us</a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/about')}}">About Us</a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="blog-left-sidebar.html">Contact Us </a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/contact')}}">Contact Us </a>
 
                 </li>
                 <li class="lvl1"><a href="#"><b>Explore More!</b></a>
