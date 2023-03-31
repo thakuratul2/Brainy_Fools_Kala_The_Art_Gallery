@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ArtistController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,4 @@ Route::get('/',[HomeController::class,'index']);
 Route::get('/product',[ProductController::class,'product']);
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/gallery',[GalleryController::class,'gallery']);
+Route::get('/artist',[ArtistController::class,'artist']);

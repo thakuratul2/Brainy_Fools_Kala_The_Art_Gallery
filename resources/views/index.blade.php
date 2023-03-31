@@ -236,13 +236,13 @@
                 <li class="lvl1 parent megamenu"><a href="{{url('/gallery')}}">Gallery </a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="product-layout-1.html">Artist</a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/artist')}}">Artist</a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="about-us.html">About Us</a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/about')}}">About Us</a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="blog-left-sidebar.html">Contact Us </a>
+                <li class="lvl1 parent megamenu"><a href="{{url('/contact')}}">Contact Us </a>
 
                 </li>
                 <li class="lvl1"><a href="#"><b>Explore More!</b></a>
