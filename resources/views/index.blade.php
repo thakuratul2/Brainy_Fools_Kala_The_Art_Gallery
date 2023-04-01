@@ -1,3 +1,8 @@
+<!--
+    Project Name : Kala
+    Date : 1/4/2023
+    Author : Sidharth Agarwal
+-->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
