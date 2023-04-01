@@ -152,7 +152,7 @@
                                     <li class="item">
                                         <a class="product-image" href="#">
                                             <img src="assets/images/collection/paint2.jpg"
-                                                alt="3/4 Sleeve Kimono Dress" title="" />
+                                                alt="" title="" />
                                         </a>
                                         <div class="product-details">
                                             <a href="#" class="remove"><i class="anm anm-times-l"
