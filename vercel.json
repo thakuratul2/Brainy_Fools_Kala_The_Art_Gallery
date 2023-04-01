@@ -13,7 +13,7 @@
         "APP_NAME": "kala-the-art-gallery",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://kala-the-art-gallery.vercel.app",
+        "APP_URL": "https://kala-the-art-gallery-90pe0nckd-thakuratul2.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
