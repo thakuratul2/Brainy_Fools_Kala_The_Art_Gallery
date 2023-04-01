@@ -291,23 +291,18 @@
                 	<div class="sidebar_tags">
                     	<!--Categories-->
                     	<div class="sidebar_widget categories filter-widget">
-                            <div class="widget-title"><h2>Categories</h2></div>
+                            <div class="widget-title"><h2>Various Categories</h2></div>
                             <div class="widget-content">
                                 <ul class="sidebar_categories">
-                                    <li class="level1 sub-level"><a href="#;" class="site-nav">Clothing</a>
+                                    
+                                    <li class="level1 sub-level"><a href="#;" class="site-nav">Painting Types</a>
                                     	<ul class="sublinks">
-                                        	<li class="level2"><a href="#;" class="site-nav">Men</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Women</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Child</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">View All Clothing</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="level1 sub-level"><a href="#;" class="site-nav">Jewellery</a>
-                                    	<ul class="sublinks">
-                                        	<li class="level2"><a href="#;" class="site-nav">Ring</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Neckalses</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">Eaarings</a></li>
-                                            <li class="level2"><a href="#;" class="site-nav">View All Jewellery</a></li>
+                                        	<li class="level2"><a href="#;" class="site-nav">Oil</a></li>
+                                            <li class="level2"><a href="#;" class="site-nav">Watercolour</a></li>
+                                            <li class="level2"><a href="#;" class="site-nav">Gouache</a></li>
+                                            <li class="level2"><a href="#;" class="site-nav">Pastel</a></li>
+                                            <li class="level2"><a href="#;" class="site-nav">Encoustic</a></li>
+                                            <li class="level2"><a href="#;" class="site-nav">Fresco</a></li>
                                         </ul>
                                     </li>
                                     <li class="lvl-1"><a href="#;" class="site-nav">Shoes</a></li>
