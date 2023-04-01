@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="buttonSet text-center">
                                         <a href="{{url('/cart')}}" class="btn btn-secondary btn--small">View Cart</a>
-                                        <a href="checkout.html" class="btn btn-secondary btn--small">Checkout</a>
+                                        <a href="{{url('/check-wishlist')}}" class="btn btn-secondary btn--small">Checkout</a>
                                     </div>
                                 </div>
                             </div>

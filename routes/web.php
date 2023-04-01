@@ -6,6 +6,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArtistController;
+use App\Http\Controllers\CheckController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +23,4 @@ Route::get('/product',[ProductController::class,'product']);
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
+Route::get('/check-wishlist',[CheckController::class,'check']);
