@@ -72,7 +72,7 @@
                         <ul class="customer-links list-inline">
                             <li><a href="login.html">Login</a></li>
                             <li><a href="register.html">Create Account</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="{{url('/check-wishlist')}}">Wishlist</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                     <!--Desktop Logo-->
                     <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
                         <a href="{{url('/')}}">
-                            <img src="assets/images/" alt="kala" title="Belle Multipurpose Html Template" />
+                            <img src="assets/images/logo.png" alt="kala" title="kala" />
                         </a>
                     </div>
                     <!--End Desktop Logo-->
@@ -176,7 +176,7 @@
                                     <li class="item">
                                         <a class="product-image" href="#">
                                             <img src="assets/images/collection/paint6.jpg"
-                                                alt="Elastic Waist Dress - Black / Small" title="" />
+                                                alt="" title="" />
                                         </a>
                                         <div class="product-details">
                                             <a href="#" class="remove"><i class="anm anm-times-l"
@@ -259,7 +259,7 @@
                     <div class="slide">
                         <div class="blur-up lazyload bg-size">
                             <img class="blur-up lazyload bg-img" src="assets/images/slideshow-banners/banner.jpg"
-                                alt="Shop Our New Collection" title="Shop Our New Collection" />
+                                alt="" title="" />
                             <div class="slideshow__text-wrap slideshow__overlay classic bottom">
                                 <div class="slideshow__text-content bottom">
                                     <div class="wrap-caption center">
@@ -304,8 +304,7 @@
                     </div>
                 </div>
             </div>
-            <!--End Home slider-->
-            <!--Collection Tab slider-->
+          
             <div class="product-rows section">
                 <div class="container">
                     <div class="row">
@@ -371,12 +370,12 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -410,15 +409,13 @@
                                         </div>
                                         <!-- End product label -->
                                     </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
+                                  
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
                                             <a href="{{url('/product')}}">painting 2</a>
                                         </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
+                                        
                                         <div class="product-price">
                                             <span class="price">₹748.00</span>
                                         </div>
@@ -436,7 +433,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -500,7 +497,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -563,7 +560,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -574,14 +571,14 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <!-- end product button -->
+                                    
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                                 <div class="grid-view_image">
-                                    <!-- start product image -->
+                                   
                                     <a href="{{url('/product')}}" class="grid-view-item__link">
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
@@ -594,8 +591,7 @@
                                             
                                             src="assets/images/collection/paint2.jpg" alt="image"
                                             title="product">
-                                        <!-- End hover image -->
-                                        <!-- product label -->
+                                      
                                         <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
                                         <!-- End product label -->
                                     </a>
@@ -626,7 +622,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -660,8 +656,7 @@
                                             title="product">
                                         <!-- End hover image -->
                                     </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
+                               
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
@@ -686,7 +681,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -774,12 +769,12 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href=""
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -839,12 +834,12 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href=""
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -877,15 +872,13 @@
                                         </div>
                                         <!-- End product label -->
                                     </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
+                                   
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
                                             <a href="{{url('/product')}}">Painting 3</a>
                                         </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
+                                        
                                         <div class="product-price">
                                             <span class="price">₹550.00</span>
                                         </div>
@@ -903,18 +896,17 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
-                                            <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                            <div class="compare-btn">"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
                                             </div>
                                         </div>
-                                        <!-- end product button -->
+                                
                                     </div>
                                    
                                 </div>
@@ -928,8 +920,7 @@
                                            
                                             src="assets/images/collection/paint5.jpg" alt="image"
                                             title="product">
-                                        <!-- End image -->
-                                        <!-- Hover image -->
+                                        
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                            
                                             src="assets/images/collection/paint5.jpg" alt="image"
@@ -939,15 +930,13 @@
                                         <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
                                         <!-- End product label -->
                                     </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
+                                   >
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
                                             <a href="{{url('/product')}}">Painting 4</a>
                                         </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
+                                       
                                         <div class="product-price">
                                             
                                             <span class="price">₹788.00</span>
@@ -966,12 +955,12 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href=""
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -1029,7 +1018,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
@@ -1089,7 +1078,7 @@
                                                         class="icon anm anm-bag-l"></i></button>
                                             </form>
                                             <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
                                                     <i class="icon anm anm-heart-l"></i>
                                                 </a>
                                             </div>
