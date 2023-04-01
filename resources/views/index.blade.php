@@ -1,7 +1,8 @@
 <!--
     Project Name : Kala
     Date : 1/4/2023
-    Author : Sidharth Agarwal
+    Author : 1. Sidharth Agarwal
+             2. Atul Pratap Singh
 -->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
