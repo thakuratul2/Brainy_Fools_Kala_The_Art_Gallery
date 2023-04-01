@@ -268,14 +268,7 @@
                         <div class="blur-up lazyload bg-size">
                             <img class="blur-up lazyload bg-img" src="assets/images/slideshow-banners/banner.jpg"
                                 alt="" title="" />
-                            <div class="slideshow__text-wrap slideshow__overlay classic bottom">
-                                <div class="slideshow__text-content bottom">
-                                    <div class="wrap-caption center">
-
-                                        <span class="btn">Explore More</span>
-                                    </div>
-                                </div>
-                            </div>
+                         
                         </div>
                     </div>
 

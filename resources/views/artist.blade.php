@@ -305,11 +305,7 @@
                                             <li class="level2"><a href="#;" class="site-nav">Fresco</a></li>
                                         </ul>
                                     </li>
-                                    <li class="lvl-1"><a href="#;" class="site-nav">Shoes</a></li>
-                                    <li class="lvl-1"><a href="#;" class="site-nav">Accessories</a></li>
-                                    <li class="lvl-1"><a href="#;" class="site-nav">Collections</a></li>
-                                    <li class="lvl-1"><a href="#;" class="site-nav">Sale</a></li>
-                                    <li class="lvl-1"><a href="#;" class="site-nav">Page</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -323,35 +319,25 @@
                                       <div class="mini-list-item">
                                         <div class="mini-view_image">
                                             <a class="grid-view-item__link" href="#">
-                                                <img class="grid-view-item__image" src="assets/images/product-images/mini-product-img.jpg" alt="" />
+                                                <img class="grid-view-item__image" src="assets/images/collection/paint2.jpg" alt="" />
                                             </a>
                                         </div>
-                                        <div class="details"> <a class="grid-view-item__title" href="#">Cena Skirt</a>
-                                          <div class="grid-view-item__meta"><span class="product-price__price"><span class="money">$173.60</span></span></div>
+                                        <div class="details"> <a class="grid-view-item__title" href="#">Painting 1</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="grid__item">
+                                      <div class="mini-list-item">
+                                        <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="assets/images/collection/paint4.jpg" alt="" /></a> </div>
+                                        <div class="details"> <a class="grid-view-item__title" href="#">Painting 2</a>
                                         </div>
                                       </div>
                                     </div>
                                     <div class="grid__item">
                                       <div class="mini-list-item">
-                                        <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="assets/images/product-images/mini-product-img1.jpg" alt="" /></a> </div>
-                                        <div class="details"> <a class="grid-view-item__title" href="#">Block Button Up</a>
-                                          <div class="grid-view-item__meta"><span class="product-price__price"><span class="money">$378.00</span></span></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="grid__item">
-                                      <div class="mini-list-item">
-                                        <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="assets/images/product-images/mini-product-img2.jpg" alt="" /></a> </div>
-                                        <div class="details"> <a class="grid-view-item__title" href="#">Balda Button Pant</a>
-                                          <div class="grid-view-item__meta"><span class="product-price__price"><span class="money">$278.60</span></span></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="grid__item">
-                                      <div class="mini-list-item">
-                                        <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="assets/images/product-images/mini-product-img3.jpg" alt="" /></a> </div>
-                                        <div class="details"> <a class="grid-view-item__title" href="#">Border Dress in Black/Silver</a>
-                                          <div class="grid-view-item__meta"><span class="product-price__price"><span class="money">$228.00</span></span></div>
+                                        <div class="mini-view_image"> <a class="grid-view-item__link" href="#"><img class="grid-view-item__image" src="assets/images/collection/paint4.jpg" alt="" /></a> </div>
+                                        <div class="details"> <a class="grid-view-item__title" href="#">Painting 3</a>
                                         </div>
                                       </div>
                                     </div>
@@ -366,10 +352,10 @@
                           </div>
                           <div class="widget-content">
                             <ul class="product-tags">
-                              <li><a href="#" title="Show products matching tag $100 - $400">$100 - $400</a></li>
-                              <li><a href="#" title="Show products matching tag $400 - $600">$400 - $600</a></li>
-                              <li><a href="#" title="Show products matching tag $600 - $800">$600 - $800</a></li>
-                              <li><a href="#" title="Show products matching tag Above $800">Above $800</a></li>
+                              <li><a href="#" title="Show products matching tag ₹100 - ₹400">₹100 - ₹400</a></li>
+                              <li><a href="#" title="Show products matching tag ₹400 - ₹600">₹400 - ₹600</a></li>
+                              <li><a href="#" title="Show products matching tag ₹600 - ₹800">₹600 - ₹800</a></li>
+                              <li><a href="#" title="Show products matching tag Above ₹800">Above ₹800</a></li>
                               <li><a href="#" title="Show products matching tag Allen Vela">Allen Vela</a></li>
                               <li><a href="#" title="Show products matching tag Black">Black</a></li>
                               <li><a href="#" title="Show products matching tag Blue">Blue</a></li>
@@ -410,7 +396,7 @@
                     <hr>
                 	<div class="productList">
                     	<!--Toolbar-->
-                        <button type="button" class="btn btn-filter d-block d-md-none d-lg-none"> Product Filters</button>
+                        <button type="button" class="btn btn-filter d-block d-md-none d-lg-none"> Artist Filters</button>
                     	<div class="toolbar">
                         	<div class="filters-toolbar-wrapper">
                             	<div class="row">
@@ -452,27 +438,19 @@
                                 <div class="list-view-item__image-column">
                                     <div class="list-view-item__image-wrapper">
                                         <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image1.jpg" src="assets/images/product-images/product-image1.jpg" alt="image" title="product"></a>
+                                        <a href="{{url('/product')}}"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/collection/paint5.jpg" src="assets/images/collection/paint5.jpg" alt="image" title="product"></a>
                                         <!-- End Image -->
                                     </div>
                                 </div>
                                 <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Camelia Reversible Jacket</a></div>
+                                    <div class="h4 grid-view-item__title"><a href="{{url('/product')}}">Artist 1</a></div>
                                     <!-- Product Review -->
                                     <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
+                                   
                                     <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="old-price">$600.00</span>
-                                        <span class="product-price__price product-price__sale"><span class="money">$500.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                    	<button class="btn btn--small" type="button">Select Options</button>
-	                                </form>
+                                    
+                                    
+                                    
                                 </div>
                             </div>
                             <!--End ListView Item-->
@@ -481,12 +459,12 @@
                                 <div class="list-view-item__image-column">
                                     <div class="list-view-item__image-wrapper">
                                         <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image2.jpg" src="assets/images/product-images/product-image2.jpg" alt="image" title="product"></a>
+                                        <a href="{{url('/product')}}"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint5.jpg" alt="image" title="product"></a>
                                         <!-- End Image -->
                                     </div>
                                 </div>
                                 <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Elastic Waist Dress</a></div>
+                                    <div class="h4 grid-view-item__title"><a href="{{url('/product')}}">Artist 2</a></div>
                                     <!-- Product Review -->
                                     <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i></p>
                                     <!-- End Product Review -->
@@ -494,353 +472,12 @@
                                     <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
                                     <!-- End Sort Description -->
                                     <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$693.00</span></span>
-                                    </p>
+                                   
                                     <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Select Options</button>
-                                    </form>
+                                    
                                 </div>
                             </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image3.jpg" src="assets/images/product-images/product-image3.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">3/4 Sleeve Kimono Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$500.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Select Options</button>
-                                    </form>
-                                </div>
-							</div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image4.jpg" src="assets/images/product-images/product-image4.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Cape Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="old-price">$900.00</span>
-                                        <span class="product-price__price product-price__sale"><span class="money">$800.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Select Options</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image5.jpg" src="assets/images/product-images/product-image5.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Paper Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="old-price">$900.00</span>
-                                        <span class="product-price__price product-price__sale"><span class="money">$800.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Select Options</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image17.jpg" src="assets/images/product-images/product-image17.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Buttercup Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$800.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image18.jpg" src="assets/images/product-images/product-image18.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Lima Shirt</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$800.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image19.jpg" src="assets/images/product-images/product-image19.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Romary Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$800.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image20.jpg" src="assets/images/product-images/product-image20.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Floral Sleeveless Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$380.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image21.jpg" src="assets/images/product-images/product-image21.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Button Up Dress</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$400.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image22.jpg" src="assets/images/product-images/product-image22.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Lexie Shirt</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$200.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image23.jpg" src="assets/images/product-images/product-image23.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">One Shoulder Dress in Navy</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$1048.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image24.jpg" src="assets/images/product-images/product-image24.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">Triangle Sleeveless Dress in Multi</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$1048.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End ListView Item-->
-                            <!--ListView Item-->
-                            <div class="list-product list-view-item">
-                                <div class="list-view-item__image-column">
-                                    <div class="list-view-item__image-wrapper">
-                                        <!-- Image -->
-                                        <a href="product-layout-2.html"><img class="list-view-item__image blur-up lazyload" data-src="assets/images/product-images/product-image25.jpg" src="assets/images/product-images/product-image25.jpg" alt="image" title="product"></a>
-                                        <!-- End Image -->
-                                    </div>
-                                </div>
-                                <div class="list-view-item__title-column">
-                                    <div class="h4 grid-view-item__title"><a href="product-layout-2.html">ACB Top</a></div>
-                                    <!-- Product Review -->
-                                    <p class="product-review"><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i><i class="font-13 fa fa-star-o"></i></p>
-                                    <!-- End Product Review -->
-                                    <!-- Sort Description -->
-                                    <p>Hello welcome that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as boutiques, bookstores, technology stores, jewelries and other types of web shops....</p>
-                                    <!-- End Sort Description -->
-                                    <!-- Price -->
-                                    <p class="product-price grid-view-item__meta">
-                                        <span class="product-price__price"><span class="money">$280.00</span></span>
-                                    </p>
-                                    <!-- End Price -->
-                                    <form class="variants" action="#">
-                                        <button class="btn btn--small" type="button">Add To Cart</button>
-                                    </form>
-                                </div>
-                            </div>
+                           
                             <!--End ListView Item-->
                         </div>
                     </div>
