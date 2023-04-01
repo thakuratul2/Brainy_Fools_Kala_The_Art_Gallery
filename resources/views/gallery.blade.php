@@ -83,7 +83,7 @@
                 <!--Desktop Logo-->
                 <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
                     <a href="{{url('/')}}">
-                        <img src="assets/images" alt="kala"
+                        <img src="assets/images/logo.png" alt="kala"
                             title="kala" />
                     </a>
                 </div>
@@ -125,7 +125,7 @@
                 <div class="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
                     <div class="logo">
                         <a href="{{url('/')}}">
-                            <img src="assets/images/" alt="kala"
+                            <img src="assets/images/logo.png" alt="kala"
                                 title="kala" />
                         </a>
                     </div>

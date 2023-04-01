@@ -174,7 +174,7 @@
                                 <li class="item">
                                     <a class="product-image" href="#">
                                         <img src="assets/images/collection/paint6.jpg"
-                                            alt="Elastic Waist Dress - Black / Small" title="" />
+                                            alt="" title="" />
                                     </a>
                                     <div class="product-details">
                                         <a href="#" class="remove"><i class="anm anm-times-l"
