@@ -4,6 +4,7 @@
     Author : 1. Sidharth Agarwal
              2. Atul Pratap Singh
              3. Avantika Som
+             4. Anjali Bhardwaj
 -->
 <!DOCTYPE html>
 <html class="no-js" lang="en">
