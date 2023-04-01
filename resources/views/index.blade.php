@@ -271,7 +271,6 @@
                             <div class="slideshow__text-wrap slideshow__overlay classic bottom">
                                 <div class="slideshow__text-content bottom">
                                     <div class="wrap-caption center">
-                                        <h2 class="h1 mega-title slideshow__title">“Creativity takes <br>courage”</h2>
 
                                         <span class="btn">Explore More</span>
                                     </div>
