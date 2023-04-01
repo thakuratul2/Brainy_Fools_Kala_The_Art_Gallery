@@ -277,7 +277,7 @@
     	<!--Page Title-->
     	<div class="page section-header text-center">
 			<div class="page-title">
-        		<div class="wrapper"><h1 class="page-width">Checkout</h1></div>
+        		<div class="wrapper"><h1 class="page-width">Checkout Painting | Kala</h1></div>
       		</div>
 		</div>
         <!--End Page Title-->
@@ -393,13 +393,8 @@
                                         <label for="input-country">Country <span class="required-f">*</span></label>
                                         <select name="country_id" id="input-country">
                                             <option value=""> --- Please Select --- </option>
-                                            <option value="244">Aaland Islands</option>
-                                            <option value="1">Afghanistan</option>
-                                            <option value="2">Albania</option>
-                                            <option value="3">Algeria</option>
-                                            <option value="4">American Samoa</option>
-                                            <option value="5">Andorra</option>
-                                            <option value="6">Angola</option>
+                                            <option value="244">India</option>
+                                            
                                         </select>
                                     </div>
                                 </div>
@@ -408,23 +403,15 @@
                                         <label for="input-zone">Region / State <span class="required-f">*</span></label>
                                         <select name="zone_id" id="input-zone">
                                             <option value=""> --- Please Select --- </option>
-                                            <option value="3513">Aberdeen</option>
-                                            <option value="3514">Aberdeenshire</option>
-                                            <option value="3515">Anglesey</option>
-                                            <option value="3516">Angus</option>
+                                            <option value="3513">Uttar Pradesh</option>
+                                            
                                         </select>
                                     </div>
                                 </div>
                             </fieldset>
 
                             <fieldset>
-                                <div class="row">
-                                    <div class="form-group form-check col-md-12 col-lg-12 col-xl-12">
-                                        <label class="form-check-label padding-15px-left">
-                                            <input type="checkbox" class="form-check-input" value=""><strong>Create an account ?</strong>
-                                        </label>
-                                    </div>
-                                </div>
+                                
                             </fieldset>
 
                             <fieldset>
