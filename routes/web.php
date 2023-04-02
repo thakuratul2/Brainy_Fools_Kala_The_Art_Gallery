@@ -7,6 +7,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\CheckController;
+use App\Http\Controllers\AdminIndex;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,3 +25,4 @@ Route::get('/cart',[CartController::class,'cart']);
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/check-wishlist',[CheckController::class,'check']);
+Route::get('/admin',[AdminIndex::class,'adminIndex']);
