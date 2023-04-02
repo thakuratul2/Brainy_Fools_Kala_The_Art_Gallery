@@ -571,10 +571,10 @@
                                         <!-- start product image -->
                                         <a href="{{url('/product')}}">
                                             <!-- image -->
-                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product">
+                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint3.jpg" src="assets/images/collection/paint3.jpg" alt="image" title="product">
                                             <!-- End image -->
                                             <!-- Hover image -->
-                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product">
+                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint3.jpg" src="assets/images/collection/paint3.jpg" alt="image" title="product">
                                             <!-- End hover image -->
                                         </a>
                                         <!-- end product image -->
@@ -631,10 +631,10 @@
                                         <!-- start product image -->
                                         <a href="{{url('/product')}}">
                                             <!-- image -->
-                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product">
+                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint5.jpg" src="assets/images/collection/paint5.jpg" alt="image" title="product">
                                             <!-- End image -->
                                             <!-- Hover image -->
-                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product">
+                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint5.jpg" src="assets/images/collection/paint5.jpg" alt="image" title="product">
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels rectangular"><span class="lbl pr-label2">Hot</span></div>
@@ -693,10 +693,10 @@
                                         <!-- start product image -->
                                         <a href="{{url('/product')}}">
                                             <!-- image -->
-                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product" />
+                                            <img class="primary blur-up lazyload" data-src="assets/images/collection/paint2.jpg" src="assets/images/collection/paint2.jpg" alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
-                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint4.jpg" src="assets/images/collection/paint4.jpg" alt="image" title="product" />
+                                            <img class="hover blur-up lazyload" data-src="assets/images/collection/paint2.jpg" src="assets/images/collection/paint2.jpg" alt="image" title="product" />
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
