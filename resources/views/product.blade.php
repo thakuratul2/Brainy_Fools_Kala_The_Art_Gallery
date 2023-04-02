@@ -69,7 +69,7 @@
                         <ul class="customer-links list-inline">
                             <li><a href="login.html">Login</a></li>
                             <li><a href="register.html">Create Account</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="{{url('/check-wishlist')}}">Wishlist</a></li>
                         </ul>
                     </div>
                 </div>
