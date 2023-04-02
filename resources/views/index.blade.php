@@ -394,13 +394,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint3.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                         
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint3.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -438,7 +438,7 @@
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -456,13 +456,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                             
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint4.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                             
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint4.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -502,7 +502,7 @@
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -520,13 +520,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint5.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/paint5.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -565,7 +565,7 @@
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -583,13 +583,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/painti1.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                             
-                                            src="assets/images/collection/paint2.jpg" alt="image"
+                                            src="assets/images/collection/panti1.jpg" alt="image"
                                             title="product">
                                       
                                         <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
@@ -686,7 +686,7 @@
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -745,7 +745,7 @@
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
-                                            <a href="{{url('/product')}}">Painting 1</a>
+                                            <a href="{{url('/product')}}">Artist 1</a>
                                         </div>
                                         <!-- End product name -->
                                         <!-- product price -->
@@ -774,7 +774,7 @@
                                                 </a>
                                             </div>
                                             <div class="compare-btn">
-                                                <a class="compare add-to-compare" href=""
+                                                <a class="compare add-to-compare" href="#"
                                                     title="Add to Compare">
                                                     <i class="icon anm anm-random-r"></i>
                                                 </a>
@@ -793,13 +793,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/paint4.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                         
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/paint4.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -813,7 +813,7 @@
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
-                                            <a href="{{url('/product')}}">painting 2</a>
+                                            <a href="{{url('/product')}}">Artist 2</a>
                                         </div>
                                         <!-- End product name -->
                                         <!-- product price -->
@@ -857,13 +857,13 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                             
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/paint3.jpg" alt="image"
                                             title="product">
                                         <!-- End image -->
                                         <!-- Hover image -->
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                             
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/paint3.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -876,7 +876,7 @@
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
-                                            <a href="{{url('/product')}}">Painting 3</a>
+                                            <a href="{{url('/product')}}">Artist 3</a>
                                         </div>
                                         
                                         <div class="product-price">
@@ -918,12 +918,12 @@
                                         <!-- image -->
                                         <img class="grid-view-item__image primary blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/painti1.jpg" alt="image"
                                             title="product">
                                         
                                         <img class="grid-view-item__image hover blur-up lazyload"
                                            
-                                            src="assets/images/collection/paint5.jpg" alt="image"
+                                            src="assets/images/collection/painti1.jpg" alt="image"
                                             title="product">
                                         <!-- End hover image -->
                                         <!-- product label -->
@@ -934,166 +934,20 @@
                                     <div class="product-details hoverDetails text-center mobile">
                                         <!-- product name -->
                                         <div class="product-name">
-                                            <a href="{{url('/product')}}">Painting 4</a>
+                                            <a href="{{url('/product')}}">Artist 4</a>
                                         </div>
                                        
                                         <div class="product-price">
                                             
                                             <span class="price">₹788.00</span>
                                         </div>
-                                        <!-- product button -->
-                                        <div class="button-set">
-                                            <a href="javascript:void(0)" title="Quick View"
-                                                class="quick-view-popup quick-view" data-toggle="modal"
-                                                data-target="#content_quickview">
-                                                <i class="icon anm anm-search-plus-r"></i>
-                                            </a>
-                                            <!-- Start product button -->
-                                            <form class="variants add" action="#" onclick="window.location.href='{{url('/cart')}}'"
-                                                method="post">
-                                                <button class="btn cartIcon btn-addto-cart" type="button" tabindex="0"><i
-                                                        class="icon anm anm-bag-l"></i></button>
-                                            </form>
-                                            <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
-                                                    <i class="icon anm anm-heart-l"></i>
-                                                </a>
-                                            </div>
-                                            <div class="compare-btn">
-                                                <a class="compare add-to-compare" href=""
-                                                    title="Add to Compare">
-                                                    <i class="icon anm anm-random-r"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end product button -->
+                                       
                                     </div>
                                     
                                 </div>
                             </div>
-                            <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
-                                <div class="grid-view_image">
-                                    <!-- start product image -->
-                                    <a href="{{url('/product')}}" class="grid-view-item__link">
-                                        <!-- image -->
-                                        <img class="grid-view-item__image primary blur-up lazyload"
-                                           
-                                            src="assets/images/collection/paint5.jpg" alt="image"
-                                            title="product">
-                                        <!-- End image -->
-                                        <!-- Hover image -->
-                                        <img class="grid-view-item__image hover blur-up lazyload"
-                                           
-                                            src="assets/images/collection/paint5.jpg" alt="image"
-                                            title="product">
-                                        <!-- End hover image -->
-                                        <!-- product label -->
-                                        <div class="product-labels"><span class="lbl on-sale">Sale</span></div>
-                                        <!-- End product label -->
-                                    </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
-                                    <div class="product-details hoverDetails text-center mobile">
-                                        <!-- product name -->
-                                        <div class="product-name">
-                                            <a href="{{url('/product')}}">Painting 5</a>
-                                        </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
-                                        <div class="product-price">
-                                            
-                                            <span class="price">₹788.00</span>
-                                        </div>
-                                        <!-- product button -->
-                                        <div class="button-set">
-                                            <a href="javascript:void(0)" title="Quick View"
-                                                class="quick-view-popup quick-view" data-toggle="modal"
-                                                data-target="#content_quickview">
-                                                <i class="icon anm anm-search-plus-r"></i>
-                                            </a>
-                                            <!-- Start product button -->
-                                            <form class="variants add" action="#" onclick="window.location.href='{{url('/cart')}}'"
-                                                method="post">
-                                                <button class="btn cartIcon btn-addto-cart" type="button" tabindex="0"><i
-                                                        class="icon anm anm-bag-l"></i></button>
-                                            </form>
-                                            <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
-                                                    <i class="icon anm anm-heart-l"></i>
-                                                </a>
-                                            </div>
-                                            <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
-                                                    title="Add to Compare">
-                                                    <i class="icon anm anm-random-r"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end product button -->
-                                    </div>
-                                    <!-- Variant -->
-                                    
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
-                                <div class="grid-view_image">
-                                    <!-- start product image -->
-                                    <a href="{{url('/product')}}" class="grid-view-item__link">
-                                        <!-- image -->
-                                        <img class="grid-view-item__image primary blur-up lazyload"
-                                            
-                                            src="assets/images/collection/paint5.jpg" alt="image"
-                                            title="product">
-                                        <!-- End image -->
-                                        <!-- Hover image -->
-                                        <img class="grid-view-item__image hover blur-up lazyload"
-                                           
-                                            src="assets/images/collection/paint5.jpg" alt="image"
-                                            title="product">
-                                        <!-- End hover image -->
-                                    </a>
-                                    <!-- end product image -->
-                                    <!--start product details -->
-                                    <div class="product-details hoverDetails text-center mobile">
-                                        <!-- product name -->
-                                        <div class="product-name">
-                                            <a href="{{url('/product')}}">Painting 6</a>
-                                        </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
-                                        <div class="product-price">
-                                            <span class="price">₹420.00</span>
-                                        </div>
-                                        <!-- product button -->
-                                        <div class="button-set">
-                                            <a href="javascript:void(0)" title="Quick View"
-                                                class="quick-view-popup quick-view" data-toggle="modal"
-                                                data-target="#content_quickview">
-                                                <i class="icon anm anm-search-plus-r"></i>
-                                            </a>
-                                            <!-- Start product button -->
-                                            <form class="variants add" action="#" onclick="window.location.href='{{url('/cart')}}'"
-                                                method="post">
-                                                <button class="btn cartIcon btn-addto-cart" type="button" tabindex="0"><i
-                                                        class="icon anm anm-bag-l"></i></button>
-                                            </form>
-                                            <div class="wishlist-btn">
-                                                <a class="wishlist add-to-wishlist" href="{{url('/check-wishlist')}}">
-                                                    <i class="icon anm anm-heart-l"></i>
-                                                </a>
-                                            </div>
-                                            <div class="compare-btn">
-                                                <a class="compare add-to-compare" href="compare.html"
-                                                    title="Add to Compare">
-                                                    <i class="icon anm anm-random-r"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end product button -->
-                                    </div>
-                                    <!-- End product details -->
-                                </div>
-                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
