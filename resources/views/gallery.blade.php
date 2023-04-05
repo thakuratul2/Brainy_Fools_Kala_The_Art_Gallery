@@ -667,14 +667,13 @@
                                         <div class="product-name">
                                             <a href="#">Painting 3</a>
                                         </div>
-                                        <!-- End product name -->
-                                        <!-- product price -->
+                                        
                                         <div class="product-price">
                                             <span class="old-price" style="text-decoration: none">By: Anjali Bhardwaj</span>
                                             <br>
-                                            <span class="price">Bidding Price: ₹550.00</span>
+                                            <span class="price">Bidding Price : ₹550.00</span>
                                         </div>
-                                        <!-- End product price -->
+                                       
                                         
                                         <div class="product-review">
                                             <i class="font-13 fa fa-star"></i>
