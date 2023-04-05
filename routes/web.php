@@ -1,13 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\CartController;
+use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArtistController;
-use App\Http\Controllers\CheckController;
-use App\Http\Controllers\AdminIndex;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,10 +16,6 @@ use App\Http\Controllers\AdminIndex;
 |
 */
 
-Route::get('/',[HomeController::class,'index']);
-Route::get('/product',[ProductController::class,'product']);
-Route::get('/cart',[CartController::class,'cart']);
+Route::get('/',[WelcomeController::class,'index']);
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
-Route::get('/check-wishlist',[CheckController::class,'check']);
-Route::get('/admin',[AdminIndex::class,'adminIndex']);

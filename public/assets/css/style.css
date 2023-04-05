@@ -703,6 +703,7 @@ textarea:-ms-input-placeholder {
 ========================================================================*/
 .classicHeader:not(.stickyNav) {
   position: absolute;
+  background-color: white;
   width: 100%;
   z-index: 8;
 }
