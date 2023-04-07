@@ -1,6 +1,6 @@
 @include('frontend.inc.navbar')
 <div id="page-content">
-    <!--Home slider-->
+    <!--Dashboard slider-->
     <div class="slideshow slideshow-wrapper pb-section sliderFull">
         <div class="home-slideshow">
             <div class="slide">
