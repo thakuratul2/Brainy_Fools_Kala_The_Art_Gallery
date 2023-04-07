@@ -6,6 +6,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,7 @@ Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'login']);
 Route::post('/loginPage',[LoginController::class,'login']);
+Route::get('/registerPage',[RegisterController::class,'register']);
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
