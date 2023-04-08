@@ -32,3 +32,5 @@
 </head>
 
 <body>
+
+  @include('adlayout.sidebar')

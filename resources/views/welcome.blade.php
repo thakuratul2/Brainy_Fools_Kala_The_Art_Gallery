@@ -5,7 +5,7 @@
         <div class="home-slideshow">
             <div class="slide">
                 <div class="blur-up lazyload bg-size">
-                    <img class="blur-up lazyload bg-img" src="assets/images/slideshow-banners/banner.jpg"
+                    <img class="blur-up lazyload bg-img" src="{{url('assets/images/slideshow-banners/banner.jpg')}}"
                         alt="" title="" />
                  
                 </div>

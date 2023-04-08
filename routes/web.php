@@ -7,6 +7,7 @@ use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ManageUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,7 @@ Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'login']);
 Route::post('/loginPage',[LoginController::class,'login']);
 Route::get('/registerPage',[RegisterController::class,'register']);
+Route::get('/manage-user',[ManageUserController::class,'manageUser']);
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
