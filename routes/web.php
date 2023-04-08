@@ -8,6 +8,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ManageUserController;
+use App\Http\Controllers\Auth\LogoutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +21,7 @@ use App\Http\Controllers\ManageUserController;
 |
 */
 
-Route::get('/',[WelcomeController::class,'index']);
+Route::get('/',[WelcomeController::class,'index'])->name('welcome');
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
@@ -37,3 +38,4 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::post('/',[LogoutController::class,'destroy'])->name('logout');
