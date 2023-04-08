@@ -9,7 +9,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ManageUserController;
 use App\Http\Controllers\Auth\LogoutController;
-
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,13 +29,17 @@ Route::get('/loginPage',[LoginController::class,'login']);
 Route::post('/loginPage',[LoginController::class,'login']);
 Route::get('/registerPage',[RegisterController::class,'register']);
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified'
+// ])->group(function () {
+//     Route::get('/dashboard', function () {
+//         return view('dashboard');
+//     })->name('dashboard');
+// });
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard',[DashboardController::class,'Dashboard'])->name('dashboard');
 });
+
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
