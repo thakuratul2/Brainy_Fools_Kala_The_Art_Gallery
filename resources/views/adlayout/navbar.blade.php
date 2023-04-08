@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Kala | Admin Dashboard</title>
-  <meta content="" name="description">
+  <title>Admin Panel | Kala</title>
+  <meta content="kala admin panel dashboard" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{url('assets/images/favicon.ico')}}" rel="icon">
+ 
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
