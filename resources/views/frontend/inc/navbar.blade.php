@@ -70,8 +70,8 @@
                         <span class="user-menu d-block d-lg-none"><i class="anm anm-user-al"
                                 aria-hidden="true"></i></span>
                         <ul class="customer-links list-inline">
-                            <li><a href="{{route('login')}}">Login</a></li>
-                            <li><a href="register.html">Create Account</a></li>
+                            <li><a href="{{route('login.page')}}">Login</a></li>
+                            <li><a href="{{route('register.page')}}">Create Account</a></li>
                             <li><a href="{{url('/check-wishlist')}}">Wishlist</a></li>
                         </ul>
                     </div>
