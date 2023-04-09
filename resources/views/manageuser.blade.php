@@ -20,7 +20,6 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Kala | Users</h5>
-
               <!-- Default Table -->
               <table class="table">
                 <thead>
@@ -29,6 +28,7 @@
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
                     <th scope="col">Status</th>
+                    <th scope="col">Created Date</th>
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
@@ -40,12 +40,19 @@
                     <th scope="row">{{$item->uid}}</th>
                     <td>{{$item->name}}</td>
                     <td>{{$item->email}}</td>
-                    {{-- <td>
-                      <span class="badge bg-success">Active</span>
+                    <td>
+                     @if ($item->status == '1')
+                     
+                        <span class="badge bg-success">Active</span>
+                      @else
+                        <span class="badge bg-danger">Inactive</span>
+                      
+                      @endif 
                     </td>
+                    <td>{{$item->created_at}}</td>
                     
                     <td> <button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i>Edit</button>
-                      <button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td> --}}
+                      <a href="{{url('/manage-user')}}/{{$item->uid}}"><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
                   </tr>
                   @endforeach
                   

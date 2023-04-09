@@ -17,4 +17,8 @@ class ManageUserController extends Controller
 
         return view('manageuser')->with($data);
     }
+    public function deleteData($uid){
+        CustomerModel::find($uid)->delete();
+        return redirect()->back();
+    }
 }

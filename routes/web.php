@@ -31,5 +31,6 @@ Route::post('/loginPage',[LoginController::class,'login'])->name('login');
 Route::get('/registerPage',[RegisterController::class,'register']);
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
 Route::get('/manage-user',[ManageUserController::class,'show']);
+Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
 
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
