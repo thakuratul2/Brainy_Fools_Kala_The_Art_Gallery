@@ -26,20 +26,9 @@ Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'login']);
+Route::get('/dashboard',[DashboardController::class,'Dashboard']);
 Route::post('/loginPage',[LoginController::class,'login']);
 Route::get('/registerPage',[RegisterController::class,'register']);
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
-// Route::middleware([
-//     'auth:sanctum',
-//     config('jetstream.auth_session'),
-//     'verified'
-// ])->group(function () {
-//     Route::get('/dashboard', function () {
-//         return view('dashboard');
-//     })->name('dashboard');
-// });
-Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard',[DashboardController::class,'Dashboard'])->name('dashboard');
-});
 
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
