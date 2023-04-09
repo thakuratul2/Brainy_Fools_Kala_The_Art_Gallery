@@ -33,18 +33,21 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @foreach ($manageCustomer as $item)
+                      
+             
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Atul Pratap Singh</td>
-                    <td>test@gmail.com</td>
-                    <td>
+                    <th scope="row">{{$item->uid}}</th>
+                    <td>{{$item->name}}</td>
+                    <td>{{$item->email}}</td>
+                    {{-- <td>
                       <span class="badge bg-success">Active</span>
                     </td>
                     
                     <td> <button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i>Edit</button>
-                      <button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td>
+                      <button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td> --}}
                   </tr>
-                  
+                  @endforeach
                   
                   
                   
