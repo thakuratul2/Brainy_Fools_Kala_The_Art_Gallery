@@ -18,7 +18,7 @@ class RegisterController extends Controller
             'name'=>'required',
             'email'=>'required|email|unique:register',
             'password'=>'required|min:5|max:12',
-            'username'=>'required|username|unique:register'
+            'username'=>'required'
         ]);
         $newUser = new CustomerModel;
         $newUser->name = $req->name;

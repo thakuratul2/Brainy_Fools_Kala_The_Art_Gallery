@@ -24,21 +24,35 @@
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
-
+                  
+                  <form class="row g-3 needs-validation" novalidate action="{{route('login.user')}}" method="post">
+                    @if (Session::has('success'))
+                    <div class="alert alert-success">{{Session::get('success')}}</div>
+                        
+                    @endif
+                    @if (Session::has('fail'))
+                    <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                        
+                    @endif
+                    @csrf
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
                         <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please enter your username.</div>
+                        
                       </div>
+                      <span class="text-danger">@error('username')
+                        {{$message}}
+                    @enderror</span>
                     </div>
 
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Password</label>
                       <input type="password" name="password" class="form-control" id="yourPassword" required>
-                      <div class="invalid-feedback">Please enter your password!</div>
+                      <span class="text-danger">@error('password')
+                        {{$message}}
+                    @enderror</span>
                     </div>
 
                     <div class="col-12">

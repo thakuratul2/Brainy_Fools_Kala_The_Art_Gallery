@@ -26,6 +26,7 @@ Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page');
+Route::post('/loginPage',[LoginController::class,'loginUser'])->name('login.user');
 Route::get('/dashboard',[DashboardController::class,'Dashboard']);
 Route::get('/registerPage',[RegisterController::class,'register'])->name('register.page');
 Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');

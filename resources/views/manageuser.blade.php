@@ -27,7 +27,7 @@
                     <th scope="col">UID</th>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
-                    <th scope="col">Status</th>
+                    <th scope="col">UserName</th>
                     <th scope="col">Created Date</th>
                     <th scope="col">Action</th>
                   </tr>
@@ -41,13 +41,7 @@
                     <td>{{$item->name}}</td>
                     <td>{{$item->email}}</td>
                     <td>
-                     @if ($item->status == '1')
-                     
-                        <span class="badge bg-success">Active</span>
-                      @else
-                        <span class="badge bg-danger">Inactive</span>
-                      
-                      @endif 
+                    {{$item->username}}
                     </td>
                     <td>{{$item->created_at}}</td>
                     
