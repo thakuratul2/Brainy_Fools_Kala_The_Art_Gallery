@@ -24,17 +24,30 @@
                     <p class="text-center small">Enter your personal details to create account</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3 needs-validation" novalidate action="{{route('register.user')}}" method="post">
+                  @if (Session::has('success'))
+                  <div class="alert alert-success">{{Session::get('success')}}</div>
+                      
+                  @endif
+                  @if (Session::has('fail'))
+                  <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                      
+                  @endif
+                    @csrf
                     <div class="col-12">
                       <label for="yourName" class="form-label">Your Name</label>
                       <input type="text" name="name" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">Please, enter your name!</div>
+                      <span class="text-danger">@error('name')
+                          {{$message}}
+                      @enderror</span>
                     </div>
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Your Email</label>
                       <input type="email" name="email" class="form-control" id="yourEmail" required>
-                      <div class="invalid-feedback">Please enter a valid Email adddress!</div>
+                      <span class="text-danger">@error('email')
+                          {{$message}}
+                      @enderror</span>
                     </div>
 
                     <div class="col-12">
@@ -42,14 +55,18 @@
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
                         <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please choose a username.</div>
+                        <span class="text-danger">@error('username')
+                            {{$message}}
+                        @enderror</span>
                       </div>
                     </div>
 
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Password</label>
                       <input type="password" name="password" class="form-control" id="yourPassword" required>
-                      <div class="invalid-feedback">Please enter your password!</div>
+                      <span class="text-danger">@error('password')
+                          {{$message}}
+                      @enderror</span>
                     </div>
 
                     <div class="col-12">

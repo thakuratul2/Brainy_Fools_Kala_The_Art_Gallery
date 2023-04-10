@@ -28,6 +28,7 @@ Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page');
 Route::get('/dashboard',[DashboardController::class,'Dashboard']);
 Route::get('/registerPage',[RegisterController::class,'register'])->name('register.page');
+Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
 Route::get('/manage-user',[ManageUserController::class,'show']);
 Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
