@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\GalleryController;
@@ -25,9 +26,9 @@ Route::get('/',[WelcomeController::class,'index'])->name('welcome');
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
-Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page');
+Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page')->middleware('isAlready');
 Route::post('/loginPage',[LoginController::class,'loginUser'])->name('login.user');
-Route::get('/dashboard',[DashboardController::class,'Dashboard']);
+Route::get('/dashboard',[DashboardController::class,'Dashboard'])->middleware('isLogin');
 Route::get('/registerPage',[RegisterController::class,'register'])->name('register.page');
 Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
