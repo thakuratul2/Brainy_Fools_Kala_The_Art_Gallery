@@ -11,6 +11,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\ManageUserController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +34,7 @@ Route::get('/registerPage',[RegisterController::class,'register'])->name('regist
 Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
 Route::get('/manage-user',[ManageUserController::class,'show']);
+Route::get('/manage-user/profile',[ProfileController::class,'Profile'])->name('profile.page');
 Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
 
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
