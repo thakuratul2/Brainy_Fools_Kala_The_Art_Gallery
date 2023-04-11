@@ -45,7 +45,10 @@
                     </td>
                     <td>{{$item->created_at}}</td>
                     
-                    <td> <button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i>Edit</button>
+                    <td> <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#basicModal">
+                      <i class="bi bi-check-circle"></i>
+                      Edit
+                    </button>
                       <a href="{{url('/manage-user')}}/{{$item->uid}}"><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
                   </tr>
                   @endforeach
@@ -55,6 +58,32 @@
                 </tbody>
               </table>
               <!-- End Default Table Example -->
+              
+                  <div class="modal fade" id="basicModal" tabindex="-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Assign Role</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">Artist</option>
+                            <option value="2">Admin</option>
+                           
+                          </select>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Basic Modal-->
+    
+                </div>
+              </div>
             </div>
           </div>
 
