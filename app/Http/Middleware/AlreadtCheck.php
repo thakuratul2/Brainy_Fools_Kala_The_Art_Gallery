@@ -18,7 +18,7 @@ class AlreadtCheck
     public function handle(Request $request, Closure $next): Response
     {
         if(Session::has('loginId') && (url('login')==$request->url()||url('registerPage')==$request->url())){
-            return back();
+            return redirect()-> back();
         }
         return $next($request);
     }
