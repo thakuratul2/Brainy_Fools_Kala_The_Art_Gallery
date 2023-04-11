@@ -12,7 +12,7 @@ class ManageUserController extends Controller
         return view('manageuser');
     }
     public function show(){
-        $manageCustomer = CustomerModel::all();
+        $manageCustomer = CustomerModel::orderBy('uid','asc')->get();
         $data = compact('manageCustomer');
 
         return view('manageuser')->with($data);
