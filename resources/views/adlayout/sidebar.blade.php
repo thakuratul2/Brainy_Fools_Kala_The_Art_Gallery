@@ -256,7 +256,7 @@
             </a>
           </li>
           <li>
-            <a href="{{route('manage.page')}}">
+            <a href="{url('/manage-admin')}">
               <i class="bi bi-circle"></i><span>Manage Admins</span>
             </a>
           </li>

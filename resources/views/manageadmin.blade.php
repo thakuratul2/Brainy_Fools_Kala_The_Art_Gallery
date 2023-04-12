@@ -34,20 +34,30 @@
                   </tr>
                 </thead>
                 <tbody>
+                 @foreach ($manageAdmin as $admin)
+                 <tr>
+                  
+                    
+<td>
+    {{$admin->uid}}
+</td>
+<td>{{$admin->name}}</td>
+                    
+<td>{{$admin->email}}</td>
+<td>{{$admin->username}}</td>
+<td>
+    @if ($admin->role_as == '1')
+    <span class="badge bg-success">Admin</span>
+    @endif
+    
+</td>
+                   
                  
-                      <tr>
-                        <td>1</td>
-                        <td>Atul</td>
-                        <td>test@gmail.com</td>
-                        <td>testname</td>
-                        <td>
-                            <span class="badge bg-success">
-                                Admin
-                            </span>
-                        </td>
-                        <td>
-                            <a href=""><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
-                      </tr>
+                    <td>
+                        <a href="{{url('/manage-admin')}}/{{$admin->uid}}"><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
+                  </tr>
+                 @endforeach
+                      
              
                   
                   

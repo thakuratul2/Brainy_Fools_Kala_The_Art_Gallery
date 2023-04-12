@@ -40,4 +40,6 @@ Route::get('/manage-user/profile',[ProfileController::class,'Profile'])->name('p
 Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
 
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
-Route::get('/manage-admin',[ManageAdminController::class,'Admin',])->name('manage.page');
+Route::get('/manage-admin',[ManageAdminController::class,'Admin',]);
+Route::get('/manage-admin',[ManageAdminController::class,'AdminShow']);
+Route::get('/manage-admin/{uid}',[ManageAdminController::class,'DeleteAdmin']);
