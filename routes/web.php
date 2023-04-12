@@ -12,6 +12,8 @@ use App\Http\Controllers\ManageUserController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ManageAdminController;
+use App\Http\Controllers\ManageArtistController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,3 +40,4 @@ Route::get('/manage-user/profile',[ProfileController::class,'Profile'])->name('p
 Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
 
 Route::post('/',[LogoutController::class,'destroy'])->name('logout');
+Route::get('/manage-admin',[ManageAdminController::class,'Admin',])->name('manage.page');

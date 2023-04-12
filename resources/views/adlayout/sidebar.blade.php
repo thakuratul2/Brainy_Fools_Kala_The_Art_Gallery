@@ -256,7 +256,7 @@
             </a>
           </li>
           <li>
-            <a href="components-badges.html">
+            <a href="{{route('manage.page')}}">
               <i class="bi bi-circle"></i><span>Manage Admins</span>
             </a>
           </li>
