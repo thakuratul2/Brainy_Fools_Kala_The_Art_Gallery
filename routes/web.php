@@ -43,3 +43,6 @@ Route::post('/',[LogoutController::class,'destroy'])->name('logout');
 Route::get('/manage-admin',[ManageAdminController::class,'Admin',]);
 Route::get('/manage-admin',[ManageAdminController::class,'AdminShow']);
 Route::get('/manage-admin/{uid}',[ManageAdminController::class,'DeleteAdmin']);
+Route::get('/manage-artist',[ManageArtistController::class,'Artist']);
+Route::get('/manage-artist',[ManageArtistController::class,'ArtistShow']);
+Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']);

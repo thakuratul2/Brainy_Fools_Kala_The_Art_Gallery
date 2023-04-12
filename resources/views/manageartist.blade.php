@@ -3,12 +3,12 @@
 <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Kala | Manage User's</h1>
+      <h1>Kala | Manage Artist's</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="{{url('/dashboard')}}">Home</a></li>
           
-          <li class="breadcrumb-item active">User's</li>
+          <li class="breadcrumb-item active">Artist's</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -19,7 +19,7 @@
 
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Kala | Users</h5>
+              <h5 class="card-title">Kala | Artists</h5>
               <!-- Default Table -->
               <table class="table">
                 <thead>
@@ -28,30 +28,35 @@
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
                     <th scope="col">UserName</th>
-                    <th scope="col">Created Date</th>
+                    <th scope="col">Role</th>
+                    
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
-                  @foreach ($manageCustomer as $item)
-                      
-             
-                  <tr>
-                    <th scope="row">{{$item->uid}}</th>
-                    <td>{{$item->name}}</td>
-                    <td>{{$item->email}}</td>
-                    <td>
-                    {{$item->username}}
-                    </td>
-                    <td>{{$item->created_at}}</td>
-                    
-                    <td> <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#basicModal">
-                      <i class="bi bi-check-circle"></i>
-                      Edit
-                    </button>
-                      <a href="{{url('/manage-user')}}/{{$item->uid}}"><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
-                  </tr>
-                  @endforeach
+                 @foreach ($manageArtist as $data)
+                     <tr>
+                      <td>
+                        {{$data->uid}}
+                      </td>
+                     <td>
+                      {{$data->name}}
+                     </td>
+                     <td>
+                      {{$data->email}}
+                     </td>
+                     <td>
+                      {{$data->username}}
+                     </td>
+                     <td>
+                      @if ($data->role_as == '2')
+                          <span class="badge bg-warning">Artist</span>
+                      @endif
+                     </td>
+                     <td>
+                      <a href="{{url('/manage-artist')}}/{{$data->uid}}"><button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
+                     </tr>
+                 @endforeach
                   
                   
                   

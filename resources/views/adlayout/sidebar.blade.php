@@ -256,12 +256,12 @@
             </a>
           </li>
           <li>
-            <a href="{url('/manage-admin')}">
+            <a href="{{url('/manage-admin')}}">
               <i class="bi bi-circle"></i><span>Manage Admins</span>
             </a>
           </li>
           <li>
-            <a href="components-breadcrumbs.html">
+            <a href="{{url('/manage-artist')}}">
               <i class="bi bi-circle"></i><span>Manage Artists</span>
             </a>
           </li>
