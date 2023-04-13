@@ -14,6 +14,10 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ManageAdminController;
 use App\Http\Controllers\ManageArtistController;
+use App\Http\Controllers\AddCategories;
+use App\Http\Middleware\AuthCheck;
+use App\Http\Middleware\AlreadtCheck;
+use App\Http\Controllers\ManageCategories;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,9 +33,9 @@ Route::get('/',[WelcomeController::class,'index'])->name('welcome');
 Route::get('/gallery',[GalleryController::class,'gallery']);
 Route::get('/artist',[ArtistController::class,'artist']);
 Route::get('/cart',[CartController::class,'cart']);
-Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page')->middleware('isAlready');
+Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page')->middleware(AlreadtCheck::class,'isAlready');
 Route::post('/loginPage',[LoginController::class,'loginUser'])->name('login.user');
-Route::get('/dashboard',[DashboardController::class,'Dashboard'])->middleware('isLogin');
+Route::get('/dashboard',[DashboardController::class,'Dashboard'])->middleware(AuthCheck::class,'isLogin');
 Route::get('/registerPage',[RegisterController::class,'register'])->name('register.page');
 Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');
 Route::get('/manage-user',[ManageUserController::class,'manageUser']);
@@ -46,3 +50,4 @@ Route::get('/manage-admin/{uid}',[ManageAdminController::class,'DeleteAdmin']);
 Route::get('/manage-artist',[ManageArtistController::class,'Artist']);
 Route::get('/manage-artist',[ManageArtistController::class,'ArtistShow']);
 Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']);
+Route::get('/add-categories',[AddCategories::class,'AddCate'])->name('add.page');
