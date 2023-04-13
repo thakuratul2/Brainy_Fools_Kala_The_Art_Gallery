@@ -834,6 +834,11 @@ h6 {
   color: #ff771d;
   background: #ffecdf;
 }
+.dashboard .artist-card .card-icon {
+  color: #ea60d3;
+  background: #b1f1d7;
+}
+
 
 /* Activity */
 .dashboard .activity {
