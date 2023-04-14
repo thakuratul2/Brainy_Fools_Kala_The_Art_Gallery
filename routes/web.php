@@ -18,6 +18,7 @@ use App\Http\Controllers\AddCategories;
 use App\Http\Middleware\AuthCheck;
 use App\Http\Middleware\AlreadtCheck;
 use App\Http\Controllers\ManageCategories;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -51,3 +52,4 @@ Route::get('/manage-artist',[ManageArtistController::class,'Artist']);
 Route::get('/manage-artist',[ManageArtistController::class,'ArtistShow']);
 Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']);
 Route::get('/add-categories',[AddCategories::class,'AddCate'])->name('add.page');
+Route::post('/add-categories',[AddCategories::class,'AddCateData']);

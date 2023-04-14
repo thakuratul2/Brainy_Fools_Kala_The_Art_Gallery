@@ -64,17 +64,52 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">Artist</option>
-                            <option value="2">Admin</option>
-                           
-                          </select>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Enter Categories Details</h5>
+                    
+                                  <!-- General Form Elements -->
+                                  <form action="{{url('/')}}/add-categories" method="post">
+                                    @csrf
+                                    <div class="row mb-3">
+                                      <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                                      <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="name">
+                                      </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                      <label for="inputText" class="col-sm-2 col-form-label">By</label>
+                                      <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="by">
+                                      </div>
+                                    </div>
+                                   
+                                    
+                    
+                                    
+                                    
+                                    
+                    
+                                      
+                    
+                                     
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Save changes</button>
+                                      </div>
+                    
+                                   
+                    
+                                 
+                    
+                                   
+                    
+                                  </form><!-- End General Form Elements -->
+                    
+                                </div>
+                              </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                        
                       </div>
                     </div>
                   </div><!-- End Basic Modal-->
