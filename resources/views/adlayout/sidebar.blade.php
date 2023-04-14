@@ -275,7 +275,7 @@
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="{{route('add.page')}}">
+            <a href="{{url('/add-categories')}}">
               <i class="bi bi-circle"></i><span>Add Categories</span>
             </a>
           </li>

@@ -51,5 +51,6 @@ Route::get('/manage-admin/{uid}',[ManageAdminController::class,'DeleteAdmin']);
 Route::get('/manage-artist',[ManageArtistController::class,'Artist']);
 Route::get('/manage-artist',[ManageArtistController::class,'ArtistShow']);
 Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']);
-Route::get('/add-categories',[AddCategories::class,'AddCate'])->name('add.page');
+Route::get('/add-categories',[AddCategories::class,'AddCate']);
 Route::post('/add-categories',[AddCategories::class,'AddCateData']);
+Route::get('/add-categories',[AddCategories::class,'ShowCate']);

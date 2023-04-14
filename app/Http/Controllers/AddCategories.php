@@ -19,4 +19,9 @@ class AddCategories extends Controller
 
         return redirect()->back();
     }
+    public function ShowCate(){
+        $showCategories = Categories::all();
+        $data = compact('showCategories');
+        return view('addcate')->with($data);
+    }
 }

@@ -37,16 +37,41 @@
                   </tr>
                 </thead>
                 <tbody>
+                @foreach ($showCategories as $item)
+                    
                 
                  <tr>
-                  
-                    
+                  <td>{{$item->cid}}</td>
+                    <td>{{$item->name}}</td>
+<td>@if ($item->by=='admin')
+    <span class="badge bg-success">
+        Admin
+    </span>
+@endif
+@if ($item->by=='artist')
+<span class="badge bg-info">
+    Artist
+</span>
+    
+@endif
 
+@if ($item->by=='user')
+<span class="badge bg-warning">
+    User
+</span>
+    
+@endif</td>
                    
-                 
-                    
+                 <td>{{$item->created_at}}</td>
+                    <td>{{$item->updated_at}}</td>
+                    <td>
+                        <a href=""><button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i>Edit</button></a>
+
+                        <a href=""><button type="submit" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
+
+                    </td>
                   </tr>
-               
+                  @endforeach
                       
              
                   
