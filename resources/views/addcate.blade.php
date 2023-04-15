@@ -33,7 +33,7 @@
                     <th scope="col">By</th>
                     <th scope="col">Added On</th>
                     <th scope="col">Updated On</th>
-                    <th scope="col">Action</th>
+                  
                   </tr>
                 </thead>
                 <tbody>
@@ -64,12 +64,7 @@
                    
                  <td>{{$item->created_at}}</td>
                     <td>{{$item->updated_at}}</td>
-                    <td>
-                        <a href=""><button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i>Edit</button></a>
-
-                        <a href=""><button type="submit" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i>Delete</button></td></a>
-
-                    </td>
+                   
                   </tr>
                   @endforeach
                       

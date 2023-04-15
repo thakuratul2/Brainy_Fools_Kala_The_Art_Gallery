@@ -20,7 +20,8 @@
                         <div class="widget-title"><h2>Categories</h2></div>
                         <div class="widget-content">
                             <ul class="sidebar_categories">
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Oil</a>
+                                @foreach ($data as $item)
+                                <li class="level1 sub-level"><a href="#;" class="site-nav">{{$item->name}}</a>
                                     <ul class="sublinks">
                                         <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
                                         <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
@@ -28,46 +29,9 @@
                                         <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
                                     </ul>
                                 </li>
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Watercolour</a>
-                                    <ul class="sublinks">
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 3</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Gouache</a>
-                                    <ul class="sublinks">
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 3</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Pastel</a>
-                                    <ul class="sublinks">
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 3</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Encoustic</a>
-                                    <ul class="sublinks">
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 3</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">Fresco</a>
-                                    <ul class="sublinks">
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 3</a></li>
-                                        <li class="level2"><a href="#;" class="site-nav">Technique 4</a></li>
-                                    </ul>
-                                </li>
+                              
+                                @endforeach
+                              
                             </ul>
                         </div>
                     </div>

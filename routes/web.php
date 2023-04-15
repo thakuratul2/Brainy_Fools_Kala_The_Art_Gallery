@@ -32,7 +32,9 @@ use App\Http\Controllers\ManageCategories;
 
 Route::get('/',[WelcomeController::class,'index'])->name('welcome');
 Route::get('/gallery',[GalleryController::class,'gallery']);
+Route::get('/gallery',[GalleryController::class,'ShowCate']);
 Route::get('/artist',[ArtistController::class,'artist']);
+
 Route::get('/cart',[CartController::class,'cart']);
 Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page')->middleware(AlreadtCheck::class,'isAlready');
 Route::post('/loginPage',[LoginController::class,'loginUser'])->name('login.user');
@@ -54,3 +56,4 @@ Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']
 Route::get('/add-categories',[AddCategories::class,'AddCate']);
 Route::post('/add-categories',[AddCategories::class,'AddCateData']);
 Route::get('/add-categories',[AddCategories::class,'ShowCate']);
+
