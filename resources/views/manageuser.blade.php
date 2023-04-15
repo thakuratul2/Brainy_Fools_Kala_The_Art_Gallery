@@ -58,7 +58,7 @@
                 </tbody>
               </table>
               <!-- End Default Table Example -->
-              <form action="">
+           
 
              
                   <div class="modal fade" id="basicModal" tabindex="-1">
@@ -69,12 +69,24 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">Artist</option>
-                            <option value="2">Admin</option>
+ <select class="form-select" aria-label="Default select example">
+  <option selected>Open this select menu</option>
+                          @foreach ($roleName as $items)
+                         
+                            
+                            <option value="{{$items->rid}}">
+                               {{$items->roleName}}
+                            </option>
                            
+                            <option value="{{$items->rid}}">
+                              {{$items->roleName}}
+                           </option>
+                           <option value="{{$items->rid}}">
+                            {{$items->roleName}}
+                         </option>
                           </select>
+                          @endforeach
+                          
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -83,7 +95,7 @@
                       </div>
                     </div>
                   </div><!-- End Basic Modal-->
-                </form>
+               
                 </div>
               </div>
             </div>
