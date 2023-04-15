@@ -58,7 +58,9 @@
                 </tbody>
               </table>
               <!-- End Default Table Example -->
-              
+              <form action="">
+
+             
                   <div class="modal fade" id="basicModal" tabindex="-1">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -81,7 +83,7 @@
                       </div>
                     </div>
                   </div><!-- End Basic Modal-->
-    
+                </form>
                 </div>
               </div>
             </div>
