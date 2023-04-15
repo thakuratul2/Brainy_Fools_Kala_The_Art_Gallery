@@ -20,7 +20,7 @@ class AddCategories extends Controller
         return redirect()->back();
     }
     public function ShowCate(){
-        $showCategories = Categories::all();
+        $showCategories = Categories::orderBy('cid','asc')->get();
         $data = compact('showCategories');
         return view('addcate')->with($data);
     }

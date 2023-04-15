@@ -280,7 +280,7 @@
             </a>
           </li>
           <li>
-            <a href="forms-layouts.html">
+            <a href="{{url('/manage-categories')}}">
               <i class="bi bi-circle"></i><span>Manage Categories</span>
             </a>
           </li>

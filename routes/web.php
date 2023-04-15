@@ -56,4 +56,7 @@ Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']
 Route::get('/add-categories',[AddCategories::class,'AddCate']);
 Route::post('/add-categories',[AddCategories::class,'AddCateData']);
 Route::get('/add-categories',[AddCategories::class,'ShowCate']);
+Route::get('/manage-categories',[ManageCategories::class,'ManageCate']);
+Route::get('/manage-categories',[ManageCategories::class,'ManageShow']);
+Route::get('/manage-categories/{cid}',[ManageCategories::class,'DeleteCate']);
 

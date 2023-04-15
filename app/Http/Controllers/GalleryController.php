@@ -12,7 +12,7 @@ class GalleryController extends Controller
         return view('gallery');
     }
     public function ShowCate(){
-        $data = Categories::all();
+        $data = Categories::orderBy('cid','asc')->get();
         $display = compact('data');
         return view('gallery')->with($display);
     }
