@@ -15,7 +15,7 @@ class ManageUserController extends Controller
     }
     public function show(){
         $manageCustomer = CustomerModel::orderBy('uid','asc')->get();
-        $roleName = RoleModel::all();
+        $roleName = RoleModel::orderBy('rid','asc')->get();
         $data = compact('manageCustomer','roleName');
 
         return view('manageuser')->with($data);

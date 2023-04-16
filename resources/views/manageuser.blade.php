@@ -70,28 +70,17 @@
                         </div>
                         <div class="modal-body">
  <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
-                          @foreach ($roleName as $items)
-                         
-                            
-                            <option value="{{$items->rid}}">
-                               {{$items->roleName}}
-                            </option>
-                           
-                            <option value="{{$items->rid}}">
-                              {{$items->roleName}}
-                           </option>
-                           <option value="{{$items->rid}}">
-                            {{$items->roleName}}
-                         </option>
+  @foreach ($roleName as $item)
+      <option value="{{$item->rid}}">{{$item->roleName}}</option>
+  @endforeach
                           </select>
-                          @endforeach
-                          
+                       
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                          </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                       
                       </div>
                     </div>
                   </div><!-- End Basic Modal-->
