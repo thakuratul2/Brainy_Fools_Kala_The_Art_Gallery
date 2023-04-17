@@ -98,7 +98,7 @@
       </div>
     </section>
 
-  </main><!-- End #main -->
+  </main>
     
   </section>
 @include('adlayout.footer')
