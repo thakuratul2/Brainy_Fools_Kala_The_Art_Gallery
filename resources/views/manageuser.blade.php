@@ -70,9 +70,7 @@
                         </div>
                         <div class="modal-body">
  <select class="form-select" aria-label="Default select example">
-  @foreach ($roleName as $item)
-      <option value="{{$item->rid}}">{{$item->roleName}}</option>
-  @endforeach
+<option value="1">Admin</option>
                           </select>
                        
                           <div class="modal-footer">
