@@ -60,7 +60,7 @@
               <!-- End Default Table Example -->
            
 
-             
+             <form action="" method="post">
                   <div class="modal fade" id="basicModal" tabindex="-1">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -70,7 +70,9 @@
                         </div>
                         <div class="modal-body">
  <select class="form-select" aria-label="Default select example">
-<option value="1">Admin</option>
+<option value="admin">Admin</option>
+<option value="artist">Artist</option>
+<option value="user">User</option>
                           </select>
                        
                           <div class="modal-footer">
@@ -82,7 +84,7 @@
                       </div>
                     </div>
                   </div><!-- End Basic Modal-->
-               
+                </form>
                 </div>
               </div>
             </div>
