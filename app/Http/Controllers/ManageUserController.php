@@ -24,4 +24,12 @@ class ManageUserController extends Controller
         CustomerModel::find($uid)->delete();
         return redirect()->back();
     }
+    public function dropDown(Request $req){
+        $drop = $req->input('selectTag');
+        $model = new CustomerModel;
+        $model->role_as = $drop;
+        $model->save();
+
+        return redirect()->back();
+    }
 }

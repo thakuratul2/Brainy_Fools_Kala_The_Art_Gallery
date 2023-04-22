@@ -60,7 +60,8 @@
               <!-- End Default Table Example -->
            
 
-             <form action="" method="post">
+             <form action="{{route('role.page')}}" method="post">
+              @csrf
                   <div class="modal fade" id="basicModal" tabindex="-1">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -69,7 +70,7 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
- <select class="form-select" aria-label="Default select example">
+ <select class="form-select" aria-label="Default select example" name="selectTag">
 <option value="admin">Admin</option>
 <option value="artist">Artist</option>
 <option value="user">User</option>
