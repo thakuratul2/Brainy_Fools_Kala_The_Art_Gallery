@@ -10,6 +10,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\welcomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\auth\AuthController;
 
 
 
@@ -27,8 +28,12 @@ use App\Http\Controllers\AboutController;
 
 //Login & Register route
 Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
-Route::get('/login',[LoginController::class,'login'])->name('login.page');
+
+//group
+Route::controller(AuthController::class)->group(function(){
+    Route::get('/login',[LoginController::class,'login'])->name('login.page');
 Route::get('/register',[RegisterController::class,'register'])->name('register.page');
+});
 
 //pages
 Route::get('/gallery',[GalleryController::class,'Gallery'])->name('gallery.page');
