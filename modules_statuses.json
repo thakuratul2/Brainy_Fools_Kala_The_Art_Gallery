@@ -1,3 +1,5 @@
 {
-    "AdminUI": true
+    "Admin": true,
+    "Artist": true,
+    "User": true
 }
