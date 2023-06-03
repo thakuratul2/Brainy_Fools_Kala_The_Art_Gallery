@@ -24,7 +24,7 @@
                     <p class="text-center small">Enter your personal details to create account</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate action="{{route('register.user')}}" method="post">
+                  <form class="row g-3 needs-validation" novalidate action="" method="post">
                   @if (Session::has('success'))
                   <div class="alert alert-success">{{Session::get('success')}}</div>
                       
@@ -83,6 +83,7 @@
                       <p class="small mb-0">Already have an account? <a href="{{route('login.page')}}">Log in</a></p>
                     </div>
                   </form>
+
                 </div>
               </div>
 

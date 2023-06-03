@@ -3456,7 +3456,7 @@ a.quick-view {
 .bredcrumbWrap {
   background: #f9f9f9;
   padding: 10px 0;
-  margin: 0 0 30px;
+  margin: 75px 0 30px;
   border-top: solid 1px #e8e9eb;
 }
 
@@ -3488,7 +3488,7 @@ a.quick-view {
   padding: 0;
   width: 12.5%;
   margin: 0;
-  float: left;
+
   padding-right: 5px;
 }
 
@@ -3505,7 +3505,7 @@ a.quick-view {
   display: inline-block;
   position: relative;
   width: 87%;
-  float: left;
+
 }
 
 .product-thumb .product-dec-slider-2 a {
@@ -3727,7 +3727,7 @@ h1.product-single__title,
   -webkit-animation-duration: 0.8s;
 }
 
-@-webkit-keyframes blinker {
+@keyframes blinker {
   from {
     opacity: 1.0;
   }

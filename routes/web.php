@@ -1,23 +1,18 @@
 <?php
 
-use Illuminate\Routing\Controllers\Middleware;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WelcomeController;
-use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ProductController;
+use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\ManageUserController;
-use App\Http\Controllers\Auth\LogoutController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\ManageAdminController;
-use App\Http\Controllers\ManageArtistController;
-use App\Http\Controllers\AddCategories;
-use App\Http\Middleware\AuthCheck;
-use App\Http\Middleware\AlreadtCheck;
-use App\Http\Controllers\ManageCategories;
+use App\Http\Controllers\welcomeController;
+use App\Http\Controllers\AboutController;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,34 +25,14 @@ use App\Http\Controllers\ManageCategories;
 |
 */
 
-Route::get('/',[WelcomeController::class,'index'])->name('welcome');
-Route::get('/gallery',[GalleryController::class,'gallery']);
-Route::get('/gallery',[GalleryController::class,'ShowCate']);
-Route::get('/artist',[ArtistController::class,'artist']);
+//Login & Register route
+Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
+Route::get('/login',[LoginController::class,'login'])->name('login.page');
+Route::get('/register',[RegisterController::class,'register'])->name('register.page');
 
-Route::get('/cart',[CartController::class,'cart']);
-Route::get('/loginPage',[LoginController::class,'Login'])->name('login.page')->middleware(AlreadtCheck::class,'isAlready');
-Route::post('/loginPage',[LoginController::class,'loginUser'])->name('login.user');
-Route::get('/dashboard',[DashboardController::class,'Dashboard'])->middleware(AuthCheck::class,'isLogin');
-Route::get('/registerPage',[RegisterController::class,'register'])->name('register.page');
-Route::post('/registerPage',[RegisterController::class,'registerUser'])->name('register.user');
-Route::get('/manage-user',[ManageUserController::class,'manageUser']);
-Route::get('/manage-user',[ManageUserController::class,'show']);
-Route::post('/manage-user',[ManageUserController::class,'dropDown'])->name('role.page');
-Route::get('/profile',[ProfileController::class,'Profile'])->name('profile.page');
-Route::get('/manage-user/{uid}',[ManageUserController::class,'deleteData'])->name('manage-delete');
-
-Route::post('/',[LogoutController::class,'destroy'])->name('logout');
-Route::get('/manage-admin',[ManageAdminController::class,'Admin',]);
-Route::get('/manage-admin',[ManageAdminController::class,'AdminShow']);
-Route::get('/manage-admin/{uid}',[ManageAdminController::class,'DeleteAdmin']);
-Route::get('/manage-artist',[ManageArtistController::class,'Artist']);
-Route::get('/manage-artist',[ManageArtistController::class,'ArtistShow']);
-Route::get('/manage-artist/{uid}',[ManageArtistController::class,'DeleteArtist']);
-Route::get('/add-categories',[AddCategories::class,'AddCate']);
-Route::post('/add-categories',[AddCategories::class,'AddCateData']);
-Route::get('/add-categories',[AddCategories::class,'ShowCate']);
-Route::get('/manage-categories',[ManageCategories::class,'ManageCate']);
-Route::get('/manage-categories',[ManageCategories::class,'ManageShow']);
-Route::get('/manage-categories/{cid}',[ManageCategories::class,'DeleteCate']);
-
+//pages
+Route::get('/gallery',[GalleryController::class,'Gallery'])->name('gallery.page');
+Route::get('/artist',[ArtistController::class,'Artist'])->name('artist.page');
+Route::get('/about',[AboutController::class,'About'])->name('about.page');
+Route::get('/cart',[CartController::class,'cart'])->name('cart.page');
+Route::get('/product-detail',[ProductController::class,'Product'])->name('product.page');

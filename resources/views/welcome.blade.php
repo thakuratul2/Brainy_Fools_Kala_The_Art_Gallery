@@ -61,7 +61,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2 ">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="{{route('product.page')}}" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                     
@@ -85,7 +85,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Painting 1</a>
+                                    <a href="{{route('product.page')}}">Painting 1</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -129,7 +129,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                    
@@ -152,7 +152,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">painting 2</a>
+                                    <a href="">painting 2</a>
                                 </div>
                                 
                                 <div class="product-price">
@@ -191,7 +191,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                     
@@ -215,7 +215,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Painting 3</a>
+                                    <a href="">Painting 3</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -255,7 +255,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                    
@@ -277,7 +277,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Painting 4</a>
+                                    <a href="">Painting 4</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -318,7 +318,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                            
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                    
@@ -339,7 +339,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Painting 5</a>
+                                    <a href="">Painting 5</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -381,7 +381,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                     
@@ -399,7 +399,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Painting 6</a>
+                                    <a href="">Painting 6</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -460,7 +460,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                     
@@ -484,7 +484,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Artist 1</a>
+                                    <a href="">Artist 1</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -528,7 +528,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                    
@@ -552,7 +552,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Artist 2</a>
+                                    <a href="">Artist 2</a>
                                 </div>
                                 <!-- End product name -->
                                 <!-- product price -->
@@ -592,7 +592,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                     
@@ -615,7 +615,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Artist 3</a>
+                                    <a href="}">Artist 3</a>
                                 </div>
                                 
                                 <div class="product-price">
@@ -653,7 +653,7 @@
                     <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
                         <div class="grid-view_image">
                             <!-- start product image -->
-                            <a href="{{url('/product')}}" class="grid-view-item__link">
+                            <a href="" class="grid-view-item__link">
                                 <!-- image -->
                                 <img class="grid-view-item__image primary blur-up lazyload"
                                    
@@ -673,7 +673,7 @@
                             <div class="product-details hoverDetails text-center mobile">
                                 <!-- product name -->
                                 <div class="product-name">
-                                    <a href="{{url('/product')}}">Artist 4</a>
+                                    <a href="">Artist 4</a>
                                 </div>
                                
                                 <div class="product-price">

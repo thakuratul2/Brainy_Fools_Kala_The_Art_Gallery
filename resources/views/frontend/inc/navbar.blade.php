@@ -72,7 +72,7 @@
                         <ul class="customer-links list-inline">
                             <li><a href="{{route('login.page')}}">Login</a></li>
                             <li><a href="{{route('register.page')}}">Create Account</a></li>
-                            <li><a href="{{url('/check-wishlist')}}">Wishlist</a></li>
+                            <li><a href="">Wishlist</a></li>
                         </ul>
                     </div>
                 </div>
@@ -106,15 +106,15 @@
 
                                 </li>
 
-                                <li class="lvl1 parent megamenu"><a href="{{url('/gallery')}}">Gallery <i
+                                <li class="lvl1 parent megamenu"><a href="{{route('gallery.page')}}">Gallery <i
                                             class="anm anm-angle-down-l"></i></a>
                                    
                                 </li>
-                                <li class="lvl1 parent dropdown"><a href="{{url('/artist')}}">Artist<i
+                                <li class="lvl1 parent dropdown"><a href="{{route('artist.page')}}">Artist<i
                                             class="anm anm-angle-down-l"></i></a>
                                    
                                 </li>
-                                <li class="lvl1 parent dropdown"><a href="{{url('/about')}}">About Us <i
+                                <li class="lvl1 parent dropdown"><a href="{{route('about.page')}}">About Us <i
                                             class="anm anm-angle-down-l"></i></a>
 
                                 </li>
@@ -183,7 +183,7 @@
                                                     aria-hidden="true"></i></a>
                                             <a href="#" class="edit-i remove"><i class="anm anm-edit"
                                                     aria-hidden="true"></i></a>
-                                            <a class="pName" href="{{url('/cart')}}">Painting 2</a>
+                                            <a class="pName" href="{{route('cart.page')}}">Painting 2</a>
                                             <div class="variant-cart">By Sidharth Agarwal</div>
                                             <div class="wrapQtyBtn">
                                                 <div class="qtyField">
@@ -210,7 +210,7 @@
                                                 class="money">₹748.00</span></span>
                                     </div>
                                     <div class="buttonSet text-center">
-                                        <a href="{{url('/cart')}}" class="btn btn-secondary btn--small">View Cart</a>
+                                        <a href="{{route('cart.page')}}" class="btn btn-secondary btn--small">View Cart</a>
                                         <a href="{{url('/check-wishlist')}}" class="btn btn-secondary btn--small">Checkout</a>
                                     </div>
                                 </div>
@@ -233,13 +233,13 @@
                 <li class="lvl1 parent megamenu"><a href="{{url('/')}}">Home </a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="{{url('/gallery')}}">Gallery </a>
+                <li class="lvl1 parent megamenu"><a href="{{route('gallery.page')}}">Gallery </a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="{{url('/artist')}}">Artist</a>
+                <li class="lvl1 parent megamenu"><a href="{{route('artist.page')}}">Artist</a>
 
                 </li>
-                <li class="lvl1 parent megamenu"><a href="{{url('/about')}}">About Us</a>
+                <li class="lvl1 parent megamenu"><a href="{{route('about.page')}}">About Us</a>
 
                 </li>
                 <li class="lvl1 parent megamenu"><a href="{{url('/contact')}}">Contact Us </a>

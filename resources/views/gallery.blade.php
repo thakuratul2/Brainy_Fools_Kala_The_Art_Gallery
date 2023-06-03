@@ -20,8 +20,8 @@
                         <div class="widget-title"><h2>Categories</h2></div>
                         <div class="widget-content">
                             <ul class="sidebar_categories">
-                                @foreach ($data as $item)
-                                <li class="level1 sub-level"><a href="#;" class="site-nav">{{$item->name}}</a>
+                               
+                                <li class="level1 sub-level"><a href="#;" class="site-nav"></a>
                                     <ul class="sublinks">
                                         <li class="level2"><a href="#;" class="site-nav">Technique 1</a></li>
                                         <li class="level2"><a href="#;" class="site-nav">Technique 2</a></li>
@@ -30,7 +30,7 @@
                                     </ul>
                                 </li>
                               
-                                @endforeach
+                             
                               
                             </ul>
                         </div>
