@@ -17,6 +17,8 @@
                 </div>
                 <form action="#" method="post" class="cart style2">
                     <table>
+
+                        
                         <thead class="cart__row cart__header">
                             <tr>
                                 <th colspan="2" class="text-center">Product</th>
