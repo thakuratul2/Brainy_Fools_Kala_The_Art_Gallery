@@ -25,7 +25,7 @@
                   </div>
 
                   
-                  <form class="row g-3 needs-validation" novalidate action="{{route('login.page')}}" method="post">
+                  <form class="row g-3 needs-validation" novalidate action="{{route('login.user')}}" method="post">
                     @if (Session::has('success'))
                     <div class="alert alert-success">{{Session::get('success')}}</div>
                         

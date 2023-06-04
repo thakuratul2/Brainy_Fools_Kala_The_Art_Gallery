@@ -40,4 +40,25 @@ class AuthController extends Controller
         }
 
     }
+    public function LoginUser(Request $request){
+
+        $request ->validate([
+            'username'=>'required',
+            'password'=>'required|min:8|max:12'
+        ]);
+        $login = RegisterUser::where('username','=',$request->username)->first();
+        if($login){
+           if(Hash::check($request->password,$login->password)){
+            $request->session()->put('loginId',$login->uid);
+            return redirect('dashboard');
+           }else{
+            return back()->with('fail','Password not Matched!');
+           }
+        }else{
+            return back()->with('fail','Something Wrong!');
+        }
+    }
+    public function Dashboard(){
+        return "Welcome to dashboard";
+    }
 }
