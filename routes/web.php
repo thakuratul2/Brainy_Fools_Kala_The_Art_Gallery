@@ -31,8 +31,9 @@ Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
 
 //group
 Route::controller(AuthController::class)->group(function(){
-    Route::get('/login',[LoginController::class,'login'])->name('login.page');
-Route::get('/register',[RegisterController::class,'register'])->name('register.page');
+    Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page');
+Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
+Route::post('/register',[AuthController::class,'RegisterUser'])->name('register.user');
 });
 
 //pages

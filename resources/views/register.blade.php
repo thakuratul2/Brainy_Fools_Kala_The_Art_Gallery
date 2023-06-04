@@ -24,7 +24,8 @@
                     <p class="text-center small">Enter your personal details to create account</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate action="" method="post">
+                  <form class="row g-3 needs-validation" novalidate action="{{route('register.user')}}" method="post">
+                    @csrf
                   @if (Session::has('success'))
                   <div class="alert alert-success">{{Session::get('success')}}</div>
                       
@@ -33,10 +34,10 @@
                   <div class="alert alert-danger">{{Session::get('fail')}}</div>
                       
                   @endif
-                    @csrf
+                    
                     <div class="col-12">
                       <label for="yourName" class="form-label">Your Name</label>
-                      <input type="text" name="name" class="form-control" id="yourName" required>
+                      <input type="text" name="name" class="form-control" id="yourName" value="{{old('name')}}" required>
                       <span class="text-danger">@error('name')
                           {{$message}}
                       @enderror</span>
@@ -44,7 +45,7 @@
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Your Email</label>
-                      <input type="email" name="email" class="form-control" id="yourEmail" required>
+                      <input type="email" name="email" class="form-control" id="yourEmail" value="{{old('email')}}" required>
                       <span class="text-danger">@error('email')
                           {{$message}}
                       @enderror</span>
