@@ -10,16 +10,16 @@
     <meta name="description" content="description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{static_asset('assets/images/favicon.ico')}}" />
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}" />
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="{{static_asset('assets/css/plugins.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/plugins.css')}}">
     <!-- Bootstap CSS -->
-    <link rel="stylesheet" href="{{static_asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="{{static_asset('assets/css/style.css')}}">
-    <link rel="stylesheet" href="{{static_asset('assets/css/responsive.css')}}">
-    <link rel="stylesheet" href="{{static_asset('assets/css/style2.css')}}">
-    <link rel="stylesheet" href="{{static_asset('assets/css/style-prefix.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style2.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style-prefix.css')}}">
 </head>
 
 <body class="template-index belle template-index-belle">
@@ -85,7 +85,7 @@
                 <div class="row align-items-center">
                     <!--Desktop Logo-->
                     <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
-                        <a href="{{static_asset('/')}}">
+                        <a href="{{route('welcome.page')}}">
                             <img src="assets/images/logo.png" alt="kala" title="kala" />
                         </a>
                     </div>
@@ -101,7 +101,7 @@
                         <!--Desktop Menu-->
                         <nav class="grid__item" id="AccessibleNav"><!-- for mobile -->
                             <ul id="siteNav" class="site-nav medium center hidearrow">
-                                <li class="lvl1 parent megamenu"><a href="{{static_asset('/')}}">Home <i
+                                <li class="lvl1 parent megamenu"><a href="{{route('welcome.page')}}">Home <i
                                             class="anm anm-angle-down-l"></i></a>
 
                                 </li>
@@ -118,7 +118,7 @@
                                             class="anm anm-angle-down-l"></i></a>
 
                                 </li>
-                                <li class="lvl1"><a href="{{static_asset('/contact')}}">Contact Us <i class="anm anm-angle-down-l"></i></a></li>
+                                <li class="lvl1"><a href="{{url('/contact')}}">Contact Us <i class="anm anm-angle-down-l"></i></a></li>
                             </ul>
                         </nav>
                         <!--End Desktop Menu-->
@@ -126,7 +126,7 @@
                     <!--Mobile Logo-->
                     <div class="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
                         <div class="logo">
-                            <a href="{{static_asset('/')}}">
+                            <a href="{{url('/')}}">
                                 <img src="assets/images/logo.png" alt="kala"
                                     title="kala" />
                             </a>
@@ -153,7 +153,7 @@
                                                     aria-hidden="true"></i></a>
                                             <a href="#" class="edit-i remove"><i class="anm anm-edit"
                                                     aria-hidden="true"></i></a>
-                                            <a class="pName" href="{{static_asset('/cart')}}">Painting 1</a>
+                                            <a class="pName" href="{{asset('/cart')}}">Painting 1</a>
                                             <div class="variant-cart">By Atul Pratap Singh</div>
                                             <div class="wrapQtyBtn">
                                                 <div class="qtyField">
@@ -230,7 +230,7 @@
         <div class="mobile-nav-wrapper" role="navigation">
             <div class="closemobileMenu"><i class="icon anm anm-times-l pull-right"></i> Close Menu</div>
             <ul id="MobileNav" class="mobile-nav">
-                <li class="lvl1 parent megamenu"><a href="{{url('/')}}">Home </a>
+                <li class="lvl1 parent megamenu"><a href="{{route('welcome.page')}}">Home </a>
 
                 </li>
                 <li class="lvl1 parent megamenu"><a href="{{route('gallery.page')}}">Gallery </a>
