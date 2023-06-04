@@ -1,5 +1,5 @@
 {
-    "Admin": true,
-    "Artist": true,
-    "User": true
+    "AdminPanel": true,
+    "ArtistPanel": true,
+    "UserPanel": true
 }

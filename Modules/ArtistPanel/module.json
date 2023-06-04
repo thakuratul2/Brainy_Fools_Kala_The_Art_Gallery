@@ -1,0 +1,11 @@
+{
+    "name": "ArtistPanel",
+    "alias": "artistpanel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ArtistPanel\\Providers\\ArtistPanelServiceProvider"
+    ],
+    "files": []
+}
