@@ -15,6 +15,26 @@ $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 
+//run only when the database is running
+
+$maxAttempts = 1; // Adjust the number of attempts as needed
+$attempt = 1;
+
+while ($attempt <= $maxAttempts) {
+    try {
+        $pdo = new PDO('mysql:host=localhost;dbname=kala_new', 'root', '');
+        $pdo = null; // Close the PDO connection
+        break;
+    } catch (PDOException $e) {
+        if ($attempt === $maxAttempts) {
+            die('Failed to connect to the server!.');
+        }
+        
+        sleep(1); // Wait for 1 second before the next attempt
+        $attempt++;
+    }
+}
+
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
