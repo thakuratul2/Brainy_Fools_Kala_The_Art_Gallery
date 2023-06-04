@@ -36,8 +36,7 @@ Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.p
 Route::post('/register',[AuthController::class,'RegisterUser'])->name('register.user');
 Route::post('/login',[AuthController::class,'LoginUser'])->name('login.user');
 });
-//dashboard
-Route::get('/dashboard',[AuthController::class,'Dashboard']);
+
 
 //pages
 Route::get('/gallery',[GalleryController::class,'Gallery'])->name('gallery.page');
@@ -45,3 +44,6 @@ Route::get('/artist',[ArtistController::class,'Artist'])->name('artist.page');
 Route::get('/about',[AboutController::class,'About'])->name('about.page');
 Route::get('/cart',[CartController::class,'cart'])->name('cart.page');
 Route::get('/product-detail',[ProductController::class,'Product'])->name('product.page');
+
+//Module Routing
+Route::get('/adminPanel',[AuthController::class,'AdminDash'])->name('admin.dash');

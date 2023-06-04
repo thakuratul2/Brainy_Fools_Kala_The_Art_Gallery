@@ -50,7 +50,7 @@ class AuthController extends Controller
         if($login){
            if(Hash::check($request->password,$login->password)){
             $request->session()->put('loginId',$login->uid);
-            return redirect('dashboard');
+            return redirect('adminPanel');
            }else{
             return back()->with('fail','Password not Matched!');
            }
@@ -58,7 +58,7 @@ class AuthController extends Controller
             return back()->with('fail','Something Wrong!');
         }
     }
-    public function Dashboard(){
-        return "Welcome to dashboard";
+    public function AdminDash(){
+       return view('adminpanel::index');
     }
 }
