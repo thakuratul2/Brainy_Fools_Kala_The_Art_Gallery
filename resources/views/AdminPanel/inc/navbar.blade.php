@@ -236,3 +236,4 @@
           </button>
         </div>
       </nav>
+      @yield('content')
