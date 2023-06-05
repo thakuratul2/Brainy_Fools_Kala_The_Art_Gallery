@@ -45,5 +45,5 @@ Route::get('/about',[AboutController::class,'About'])->name('about.page');
 Route::get('/cart',[CartController::class,'cart'])->name('cart.page');
 Route::get('/product-detail',[ProductController::class,'Product'])->name('product.page');
 
-//Module Routing
-Route::get('/adminPanel',[AuthController::class,'AdminDash'])->name('admin.dash');
+
+Route::get('/adminpanel',[AuthController::class,'AdminDash'])->name('admin.dash');

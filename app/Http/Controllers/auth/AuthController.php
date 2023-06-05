@@ -59,6 +59,6 @@ class AuthController extends Controller
         }
     }
     public function AdminDash(){
-       return view('adminpanel::index');
+       return view('adminpanel.index');
     }
 }
