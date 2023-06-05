@@ -1,1 +1,1 @@
-hello
+@extends('AdminPanel.inc.master')

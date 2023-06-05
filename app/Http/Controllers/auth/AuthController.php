@@ -50,7 +50,7 @@ class AuthController extends Controller
         if($login){
            if(Hash::check($request->password,$login->password)){
             $request->session()->put('loginId',$login->uid);
-            return redirect('adminPanel');
+            return redirect('adminpanel');
            }else{
             return back()->with('fail','Password not Matched!');
            }
