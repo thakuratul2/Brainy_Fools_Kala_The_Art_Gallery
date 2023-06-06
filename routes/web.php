@@ -31,8 +31,8 @@ Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
 
 //group
 Route::controller(AuthController::class)->group(function(){
-    Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page');
-Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
+    Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page')->middleware('AlreadyLoggedIn');
+Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page')->middleware('AlreadyLoggedIn');
 Route::post('/register',[AuthController::class,'RegisterUser'])->name('register.user');
 Route::post('/login',[AuthController::class,'LoginUser'])->name('login.user');
 Route::get('/logout',[AuthController::class,'Logout'])->name('logout.option');
@@ -46,5 +46,5 @@ Route::get('/about',[AboutController::class,'About'])->name('about.page');
 Route::get('/cart',[CartController::class,'cart'])->name('cart.page');
 Route::get('/product-detail',[ProductController::class,'Product'])->name('product.page');
 
-
-Route::get('/adminpanel',[AuthController::class,'AdminDash'])->name('admin.dash');
+//middleware group
+Route::get('/adminpanel',[AuthController::class,'AdminDash'])->name('admin.dash')->middleware('isLoggedIn');
