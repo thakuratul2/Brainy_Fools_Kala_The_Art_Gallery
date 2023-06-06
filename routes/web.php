@@ -1,16 +1,17 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\RegisterController;
+
 use App\Http\Controllers\welcomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\auth\AuthController;
+
 
 
 
@@ -29,7 +30,7 @@ use App\Http\Controllers\auth\AuthController;
 //Login & Register route
 Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
 
-//group
+//group of auth pages
 Route::controller(AuthController::class)->group(function(){
     Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page');
 Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
@@ -51,4 +52,11 @@ Route::get('/adminpanel',[AuthController::class,'AdminDash'])->name('admin.dash'
 Route::middleware('AlreadyLoggedIn')->group(function(){
     Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page');
     Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
+});
+
+//group of Admin Controller
+Route::controller(AdminController::class)->group(function(){
+    Route::get('/add-admin','AdminNew');
+    Route::get('/add-admin','AddAdmin')->name('add.admin');
+    Route::get('/manage-admin','ManageAdmin')->name('manage.admin');
 });
