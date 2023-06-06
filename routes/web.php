@@ -35,6 +35,7 @@ Route::controller(AuthController::class)->group(function(){
 Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
 Route::post('/register',[AuthController::class,'RegisterUser'])->name('register.user');
 Route::post('/login',[AuthController::class,'LoginUser'])->name('login.user');
+Route::get('/logout',[AuthController::class,'Logout'])->name('logout.option');
 });
 
 

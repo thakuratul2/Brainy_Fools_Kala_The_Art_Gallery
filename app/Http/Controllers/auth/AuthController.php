@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\RegisterUser;
 use Hash;
+use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
@@ -59,6 +60,16 @@ class AuthController extends Controller
         }
     }
     public function AdminDash(){
-       return view('adminpanel.index');
+        $data = array();
+        if(Session::has('loginId')){
+            $data = RegisterUser::where('uid',"=",Session::get('loginId'))->first();
+        }
+       return view('adminpanel.index',compact('data'));
+    }
+    public function Logout(){
+        if(Session::has('loginId')){
+            Session::pull('loginId');
+            return redirect('login');
+        }
     }
 }
