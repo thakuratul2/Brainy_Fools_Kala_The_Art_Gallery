@@ -31,6 +31,7 @@ use App\Http\Controllers\auth\AuthController;
 Route::get('/',[welcomeController::class,'welcome'])->name('welcome.page');
 
 //group of auth pages
+
 Route::controller(AuthController::class)->group(function(){
     Route::get('/login',[AuthController::class,'LoginPage'])->name('login.page');
 Route::get('/register',[AuthController::class,'RegisterPage'])->name('register.page');
