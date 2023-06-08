@@ -57,7 +57,9 @@ Route::middleware('AlreadyLoggedIn')->group(function(){
 
 //group of Admin Controller
 Route::controller(AdminController::class)->group(function(){
-    Route::get('/add-admin','AdminNew');
-    Route::get('/add-admin','AddAdmin')->name('add.admin');
+    
+    Route::get('/add-admin','AddAdmin');
     Route::get('/manage-admin','ManageAdmin')->name('manage.admin');
+
+    Route::get('/add-admin','AdminNew');
 });

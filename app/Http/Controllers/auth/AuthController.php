@@ -47,7 +47,7 @@ class AuthController extends Controller
             'username'=>'required',
             'password'=>'required|min:8|max:12'
         ]);
-        $login = RegisterUser::where('username','=',$request->username)->first();
+      $login= RegisterUser::where('username','=',$request->username)->first();
         if($login){
            if(Hash::check($request->password,$login->password)){
             $request->session()->put('loginId',$login->uid);
@@ -58,6 +58,26 @@ class AuthController extends Controller
         }else{
             return back()->with('fail','Something Wrong!');
         }
+
+        //new logic
+        if ($user->is_active) {
+            // User is active, proceed with login
+            
+            // Assuming the user model has a "login_id" property
+            $loginId = $user->name;
+            
+            // Store the login ID in the session
+            session(['loginId' => $loginId]);
+            
+            // Redirect to the desired page
+            return redirect('/adminpanel.add-admin');
+        } else {
+            // User is not active, show error message and redirect back
+            
+            return back()->with('error', 'Your account is not active.');
+        }
+
+
     }
     public function AdminDash(){
         $data = array();
