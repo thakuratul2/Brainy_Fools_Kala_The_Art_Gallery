@@ -12,6 +12,7 @@
     <!--End Collection Banner-->
     
     <div class="container">
+        
         <div class="row">
             <!--Sidebar-->
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 sidebar filterbar">
