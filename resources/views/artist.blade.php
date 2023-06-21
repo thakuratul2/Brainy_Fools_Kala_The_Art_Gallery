@@ -14,6 +14,7 @@
     <div class="container">
         
         <div class="row">
+            
             <!--Sidebar-->
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 sidebar filterbar">
                 <div class="closeFilter d-block d-md-none d-lg-none"><i class="icon icon anm anm-times-l"></i></div>
