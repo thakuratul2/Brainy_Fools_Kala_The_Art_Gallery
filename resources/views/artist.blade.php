@@ -21,6 +21,7 @@
                 <div class="sidebar_tags">
                     <!--Categories-->
                     <div class="sidebar_widget categories filter-widget">
+                        
                         <div class="widget-title"><h2>Various Categories</h2></div>
                         <div class="widget-content">
                             <ul class="sidebar_categories">
