@@ -28,6 +28,7 @@
                         <div class="widget-content">
                             <ul class="sidebar_categories">
                                 
+                                
                                 <li class="level1 sub-level"><a href="#;" class="site-nav">Painting Types</a>
                                     <ul class="sublinks">
                                         <li class="level2"><a href="#;" class="site-nav">Oil</a></li>
